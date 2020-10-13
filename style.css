@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+img
+{
+    max-width: 30%;
+}
+
+#logo
+{
+    width: 5%;
+}
+body
+{
+    font-family: 'Raleway';
+}
+#container_header
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px red solid;
+}
+
+.navigation
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+}
+.navigation li
+{
+    margin: 10px
+}
+#container_search
+{
+    display: flex;
+    justify-content: flex-start;
+    border: 1px blue solid;
+    width: 15%;
+    inline-size: 15%;
+}
+
+#container_filters
+{
+    display: flex;
+    align-items: center;
+    border: 1px blue solid;
+}
+
+.filters
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0;
+}
+
+.filters li
+{
+    margin: 10px
+}
+
+#container_all_accommodations
+{
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+#container_accommodations
+{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    border: 1px red solid;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 70%;
+    inline-size: 70%;
+}
+.element_accommodation
+{
+    border: 1px yellow solid;
+    border-radius: 10px;
+    width: 30%;
+    inline-size: 30%;
+    flex: 0 1 auto;
+}
+
+#container_best_accommodations
+{
+    display: flex;
+    justify-content: space-around;
+    border: 1px red solid;
+    border-radius: 10px;
+    background-color: lightgrey;
+    width: 20%;
+    inline-size: 20%;
+}
+.element_best_accommodation
+{
+    border: 1px yellow solid;
+    border-radius: 10px;
+}
+
+#container_activities
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 1px red solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.element_activity
+{
+    width: 200px;
+    border: 1px yellow solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#container_footer
+{
+    display: flex;
+    justify-content: space-between;
+    border: 1px red solid;
+    background-color: lightgrey;
+    padding: 10px;
+    width: 99%;
+    inline-size: 99%;
+}
+
+#container_about
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+
+#container_our_accommodations
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+
+#container_assistance
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 1 auto;
+}
