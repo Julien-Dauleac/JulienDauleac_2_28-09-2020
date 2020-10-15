@@ -22,24 +22,26 @@
     <p>En plein centre ville ou en pleine nature</p>
 <form class="search">
     <i class="fas fa-map-marker-alt"></i>
-    <input type="search" name="q" placeholder="Lieux">
+    <input type="search" name="q" placeholder="Marseille, France">
     <input type="submit" value="Rechercher">
 </form>
 <div id="container_filters">
     <p>Filtres</p>
-     <ul class="filters">
+     <div class="filters">
          <i class="fas fa-money-bill-wave"></i>
-         <li><a href="#">Economique</a></li>
+         <a href="#">Economique</a>
          <i class="fas fa-child"></i>
-         <li><a href="#">Familial</a></li>
+         <a href="#">Familial</a>
          <i class="fas fa-heart"></i>
-         <li><a href="#">Romantique</a></li>
+         <a href="#">Romantique</a>
          <i class="fas fa-dog"></i>
-         <li><a href="#">Animaux autorisés</a></li>
-     </ul>
+         <a href="#">Animaux autorisés</a>
+     </div>
 </div>
+<div id="container_text">
 <i class="fas fa-info-circle"></i>
 <p>Plus de 500 logements sont disponibles dans cette ville</p>
+</div>
 <div id="container_all_accommodations">
 <div id="container_accommodations">
     <div>
@@ -109,8 +111,10 @@
 </div>
     <div id="container_best_accommodations">
         <div>
+            <div id="container_text_best_accommodations">
             <h2>Les plus populaires</h2>
             <i class="fas fa-chart-line"></i>
+            </div>
             <div class="element_best_accommodation">
                 <a href="images/accommodations/accommodation_6_large.jpg"><img src="images/accommodations/accommodation_6_small.jpg" alt="Hôtel Le soleil du matin" title="Cliquez pour agrandir"/></a>
                 <h3>Hôtel Le soleil du matin</h3>
@@ -147,55 +151,49 @@
 <div>
     <h2>Activités à Marseille</h2>
         <div id="container_activities">
-    <div class="element_activity">
+            <div class="element_activity1">
+                <a href="images/activities/activity_6_large.jpg"><img src="images/activities/activity_6_small.jpg" alt="Vieux Port" title="Cliquez pour agrandir"/></a>
+                <h3>Vieux Port</h3>
+            </div>
+    <div class="element_activity2">
           <a href="images/activities/activity_1_large.jpg"><img src="images/activities/activity_1_small.jpg" alt="Fort de Pomègues" title="Cliquez pour agrandir"/></a>
           <h3>Fort de Pomègues</h3>
     </div>
-    <div class="element_activity">
+    <div class="element_activity3">
           <a href="images/activities/activity_2_large.jpg"><img src="images/activities/activity_2_small.jpg" alt="Iles du Frioul" title="Cliquez pour agrandir"/></a>
           <h3>Iles du Frioul</h3>
     </div>
-    <div class="element_activity">
+            <div class="element_activity4">
+                <a href="images/activities/activity_5_large.jpg"><img src="images/activities/activity_5_small.jpg" alt="Parc National des Calanques" title="Cliquez pour agrandir"/></a>
+                <h3>Parc National des Calanques</h3>
+            </div>
+    <div class="element_activity5">
           <a href="images/activities/activity_3_large.jpg"><img src="images/activities/activity_3_small.jpg" alt="Notre-Dame-de-la-Garde" title="Cliquez pour agrandir"/></a>
           <h3>Notre-Dame-de-la-Garde</h3>
     </div>
-    <div class="element_activity">
+    <div class="element_activity6">
           <a href="images/activities/activity_4_large.jpg"><img src="images/activities/activity_4_small.jpg" alt="Parc Longchamp" title="Cliquez pour agrandir"/></a>
           <h3>Parc Longchamp</h3>
     </div>
-    <div class="element_activity">
-          <a href="images/activities/activity_5_large.jpg"><img src="images/activities/activity_5_small.jpg" alt="Parc National des Calanques" title="Cliquez pour agrandir"/></a>
-          <h3>Parc National des Calanques</h3>
-    </div>
-    <div class="element_activity">
-          <a href="images/activities/activity_6_large.jpg"><img src="images/activities/activity_6_small.jpg" alt="Vieux Port" title="Cliquez pour agrandir"/></a>
-          <h3>Vieux Port</h3>
-      </div>
         </div>
 </div>
 <footer>
   <div id="container_footer">
-   <div id="container_about">
-    <h2>A propos</h2>
-    <nav>
-        <div><a href="#">Fonctionnement du site</a></div>
-        <div><a href="#">Conditions générales de vente</a></div>
-        <div><a href="#">Données et confidentialité</a></div>
-    </nav>
-   </div>
-      <div id="container_our_accommodations">
-          <h2>Nos hébergements</h2>
-            <nav>
-                <div><a href="#">Charte qualité</a></div>
-                <div><a href="#">Soumettre votre hôtel</a></div>
-            </nav>
-  </div>
-      <div id="container_assistance">
-    <h2>Assistance</h2>
-    <nav>
-        <div><a href="#">Centre d'aide</a></div>
-        <div><a href="#">Nous contacter</a></div>
-    </nav>
+      <div class="about">
+      <h3>A propos</h3>
+        <a href="#">Fonctionnement du site</a>
+        <a href="#">Conditions générales de vente</a>
+        <a href="#">Données et confidentialité</a>
+      </div>
+      <div class="our_accommodations">
+      <h3>Nos hébergements</h3>
+                <a href="#">Charte qualité</a>
+                <a href="#">Soumettre votre hôtel</a>
+      </div>
+    <div class="assistance">
+        <h3>Assistance</h3>
+        <a href="#">Centre d'aide</a>
+        <a href="#">Nous contacter</a>
     </div>
   </div>
 </footer>

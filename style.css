@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
-
-img
-{
-    max-width: 50%;
-    border-radius: 10px;
-}
-
 #logo
 {
     width: 5%;
@@ -32,13 +25,13 @@ img
     margin: 30px
 }
 
-#container_search
+.search
 {
     display: flex;
     justify-content: flex-start;
     border: 1px blue solid;
-    width: 15%;
-    inline-size: 15%;
+    width: 30px;
+    height: 30px;
 }
 
 #container_filters
@@ -51,10 +44,9 @@ img
 {
     display: flex;
     justify-content: flex-start;
-    list-style: none;
 }
 
-.filters li
+.filters a
 {
     margin: 30px;
 }
@@ -62,6 +54,19 @@ img
 .filters i
 {
     color: blue;
+    align-items: center;
+    display: flex;
+}
+
+#container_text
+{
+    display: flex;
+    align-items: center;
+}
+
+.fa-info-circle
+{
+    margin: 5px
 }
 
 #container_all_accommodations
@@ -71,84 +76,220 @@ img
 }
 
 #container_accommodations
+
 {
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
     border: 1px white solid;
     border-radius: 10px;
     background-color: lightgray;
-    padding: 10px;
+    width: 900px;
+    height: 1500px;
+
 }
 
 .element_accommodation
 {
     border-radius: 10px;
     border: 1px lightgrey solid;
+    background-color: white;
+    width: 150px;
+    height: 225px;
+}
+
+.element_accommodation img
+{
+    max-width: 30%;
+    border-radius: 10px;
 }
 
 #container_best_accommodations
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border: 1px white solid;
     border-radius: 10px;
     background-color: lightgrey;
     padding: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+#container_text_best_accommodations
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-chart-line
+{
+    display: flex;
+    align-items: flex-end;
 }
 
 .element_best_accommodation
 {
     border-radius: 10px;
     border: 1px lightgrey solid;
+    background-color: white;
+    width: 70%;
+    padding: 20px;
+}
+
+.element_best_accommodation img
+{
+    max-width: 25%;
+    border-radius: 10px;
 }
 
 #container_activities
 {
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    justify-content: space-evenly;
+    align-content: space-evenly;
     border: 1px white solid;
     border-radius: 10px;
-    padding: 10px;
+    width: 1800px;
+    height: 500px;
 }
 
-.element_activity
+.element_activity1
 {
-    width: 200px;
     border: 1px white solid;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 1px 1px 1px lightgrey;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    flex: 2;
+    flex-direction: column;
+}
+
+.element_activity1 img
+{
+    width: 100px;
+    height: 50px;
+}
+
+.element_activity2
+{
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px lightgrey;
+    background-color: white;
+    width: 50px;
+    height: 100px;
+    flex: 1;
+}
+
+.element_activity2 img
+{
+    width: 100px;
+    height: 50px;
+}
+
+.element_activity3
+{
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px lightgrey;
+    background-color: white;
+    align-self: center;
+    width: 50px;
+    height: 100px;
+    flex: 1;
+}
+
+.element_activity3 img
+{
+    width: 100px;
+    height: 50px;
+}
+
+.element_activity4
+{
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px lightgrey;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    flex: 2;
+}
+
+.element_activity4 img
+{
+    width: 100px;
+    height: 50px;
+}
+
+.element_activity5
+{
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px lightgrey;
+    background-color: white;
+    width: 50px;
+    height: 100px;
+    flex: 1;
+}
+
+.element_activity5 img
+{
+    width: 100px;
+    height: 50px;
+}
+
+.element_activity6
+{
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px lightgrey;
+    background-color: white;
+    align-self: center;
+    width: 50px;
+    height: 100px;
+    flex: 1;
+}
+
+.element_activity6 img
+{
+    width: 100px;
+    height: 50px;
 }
 
 #container_footer
 {
     display: flex;
-    justify-content: space-between;
+    align-content: space-evenly;
     border: 1px white solid;
     background-color: lightgrey;
-    padding: 10px;
-    width: 99%;
+    width: 1800px;
+    height: 150px;
 }
 
-#container_about
+.about
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-#container_our_accommodations
+
+.our_accommodations
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-#container_assistance
+
+.assistance
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
