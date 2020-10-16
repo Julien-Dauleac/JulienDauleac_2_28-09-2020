@@ -29,9 +29,24 @@
 {
     display: flex;
     justify-content: flex-start;
-    border: 1px blue solid;
     width: 30px;
     height: 30px;
+}
+.submit
+{
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+.fa-map-marker-alt
+{
+    align-items: center;
+    border: 1px white solid;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px;
+    width: 30px;
+    height: 10px;
 }
 
 #container_filters
@@ -49,13 +64,17 @@
 .filters a
 {
     margin: 30px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #F2F2F2;
 }
 
 .filters i
 {
-    color: blue;
+    color: #0065FC;
     align-items: center;
     display: flex;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #DEEBFF;
 }
 
 #container_text
@@ -66,6 +85,9 @@
 
 .fa-info-circle
 {
+    background-color: white;
+    border-color: #F2F2F2;
+    color: #0065FC;
     margin: 5px
 }
 
@@ -79,9 +101,11 @@
 
 {
     display: flex;
+    justify-content: start;
+    align-items: flex-start;
     border: 1px white solid;
     border-radius: 10px;
-    background-color: lightgray;
+    background-color: #F2F2F2;
     width: 900px;
     height: 1500px;
 
@@ -90,7 +114,7 @@
 .element_accommodation
 {
     border-radius: 10px;
-    border: 1px lightgrey solid;
+    border: 1px #F2F2F2 solid;
     background-color: white;
     width: 150px;
     height: 225px;
@@ -108,34 +132,43 @@
     justify-content: space-evenly;
     border: 1px white solid;
     border-radius: 10px;
-    background-color: lightgrey;
+    background-color: #F2F2F2;
     padding: 10px;
     width: 500px;
     height: 500px;
 }
 
-#container_text_best_accommodations
+.text_best_accommodations
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .fa-chart-line
 {
-    display: flex;
+    justify-items: flex-end;
+    justify-content: flex-end;
     align-items: flex-end;
 }
 
 .element_best_accommodation
 {
     border-radius: 10px;
-    border: 1px lightgrey solid;
+    border: 1px #F2F2F2 solid;
     background-color: white;
     width: 70%;
     padding: 20px;
 }
-
+.fa-star
+{
+    color: #0065FC;
+}
+.far
+{
+    flood-color: #F2F2F2;
+    color: #F2F2F2;
+}
 .element_best_accommodation img
 {
     max-width: 25%;
@@ -145,8 +178,6 @@
 #container_activities
 {
     display: flex;
-    justify-content: space-evenly;
-    align-content: space-evenly;
     border: 1px white solid;
     border-radius: 10px;
     width: 1800px;
@@ -158,11 +189,12 @@
     border: 1px white solid;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 1px 1px 1px lightgrey;
+    box-shadow: 1px 1px 1px #F2F2F2;
     background-color: white;
     width: 100px;
     height: 100px;
     flex: 2;
+    display: flex;
     flex-direction: column;
 }
 
@@ -177,10 +209,11 @@
     border: 1px white solid;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 1px 1px 1px lightgrey;
+    box-shadow: 1px 1px 1px #F2F2F2;
     background-color: white;
     width: 50px;
     height: 100px;
+    align-self: flex-start;
     flex: 1;
 }
 
@@ -195,7 +228,7 @@
     border: 1px white solid;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 1px 1px 1px lightgrey;
+    box-shadow: 1px 1px 1px #F2F2F2;
     background-color: white;
     align-self: center;
     width: 50px;
@@ -214,7 +247,7 @@
     border: 1px white solid;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 1px 1px 1px lightgrey;
+    box-shadow: 1px 1px 1px #F2F2F2;
     background-color: white;
     width: 100px;
     height: 100px;
@@ -232,10 +265,11 @@
     border: 1px white solid;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 1px 1px 1px lightgrey;
+    box-shadow: 1px 1px 1px #F2F2F2;
     background-color: white;
     width: 50px;
     height: 100px;
+    align-self: flex-start;
     flex: 1;
 }
 
@@ -250,7 +284,7 @@
     border: 1px white solid;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 1px 1px 1px lightgrey;
+    box-shadow: 1px 1px 1px #F2F2F2;
     background-color: white;
     align-self: center;
     width: 50px;
@@ -267,9 +301,9 @@
 #container_footer
 {
     display: flex;
-    align-content: space-evenly;
+    justify-content: space-between;
     border: 1px white solid;
-    background-color: lightgrey;
+    background-color: #F2F2F2;
     width: 1800px;
     height: 150px;
 }
