@@ -1,8 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Raleway: wght @ 400; 700 & display = swap');
+@font-face
+{
+        font-family: Raleway;
+}
+
+h1, h2, h3
+{
+    font-family: Raleway;
+}
+
 #logo
 {
-    width: 5%;
+    width: 150px;
+    height: 75px;
 }
 
 #container_header
@@ -52,6 +62,7 @@
 
 #container_filters
 {
+    margin: 10px;
     display: flex;
     align-items: center;
 }
@@ -59,12 +70,13 @@
 .filters
 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 .filters a
 {
-    margin: 10px;
+    padding: 10px;
     border: 2px solid #F2F2F2;
     border-radius: 30px 60px 60px 30px;
 }
@@ -85,12 +97,16 @@
     align-items: center;
 }
 
+#container_text p
+{
+    padding: 10px;
+}
+
 .fa-info-circle
 {
     background-color: white;
     border-color: #F2F2F2;
     color: #0065FC;
-    margin: 5px
 }
 
 #container_all_accommodations
@@ -108,7 +124,7 @@
     border: 1px white solid;
     border-radius: 10px;
     background-color: #F2F2F2;
-    width: 1000px;
+    width: 1300px;
     height: 800px;
 }
 
@@ -125,7 +141,7 @@
     border-radius: 10px;
     border: 1px #F2F2F2 solid;
     background-color: white;
-    width: 250px;
+    width: 375px;
     height: 275px;
 }
 
@@ -138,28 +154,26 @@
 
 #container_best_accommodations
 {
-    display: flex;
-    justify-content: space-evenly;
     border: 1px white solid;
     border-radius: 10px;
     background-color: #F2F2F2;
     padding: 10px;
     width: 500px;
-    height: 800px;
+    height: 775px;
 }
 
 .text_best_accommodations
 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
 }
 
-.fa-chart-line
+.best_accommodations
 {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    flex-direction: column;
+
 }
 
 .element_best_accommodation
@@ -167,9 +181,10 @@
     border-radius: 10px;
     border: 1px #F2F2F2 solid;
     background-color: white;
-    width: 70%;
-    padding: 20px;
+    width: 500px;
+    height: 225px;
 }
+
 .fa-star
 {
     color: #0065FC;
@@ -179,9 +194,11 @@
     flood-color: #F2F2F2;
     color: #F2F2F2;
 }
+
 .element_best_accommodation img
 {
-    max-width: 25%;
+    width: 250px;
+    height: 100px;
     border-radius: 10px;
 }
 
@@ -204,8 +221,6 @@
     background-color: white;
     width: 250px;
     height: 450px;
-    display: flex;
-    flex-direction: column;
 }
 
 .element_activity1 img
