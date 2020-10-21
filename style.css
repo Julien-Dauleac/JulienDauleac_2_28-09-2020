@@ -1,19 +1,49 @@
-@import url('https://fonts.googleapis.com/css2? family = Raleway: wght @ 400; 700 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Raleway: wght @ 400 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Raleway: wght @ 700 & display = swap');
 @font-face
 {
         font-family: Raleway;
 }
 
-h1, h2, h3
+body
 {
     font-family: Raleway;
 }
 
 a, a:link, a:visited, a:focus, a:hover, a:active
 {
-    color:#000;
+    color: black;
     text-decoration:none;
     list-style: none;
+}
+
+a
+{
+
+}
+
+a:link
+{
+}
+
+a:visited
+{
+
+}
+
+a:focus
+{
+
+}
+
+a:hover
+{
+
+}
+
+a:active
+{
+
 }
 
 #logo
@@ -31,9 +61,11 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 .navigation
 {
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    border-top: 2px #0065FC solid;
+    color: #0065FC;
 }
 
 .navigation li
@@ -45,26 +77,40 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 {
     display: flex;
     justify-content: flex-start;
-    width: 30px;
+    width: 30%;
+}
+
+.search i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holder
+{
+    font-weight: bold;
+    color: black;
 }
 
 .submit
 {
     background-color: #0065FC;
     color: white;
-    border-radius: 0px 30px 30px 0px;
+    border-radius: 0px 15px 15px 0px;
 }
 
 .map
 {
-    align-items: center;
     border: 1px white solid;
     background-color: #F2F2F2;
-    border-radius: 30px 0px 0px 30px;
-    padding: 12px;
-    width: 25px;
+    border-radius: 15px 0px 0px 15px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #container_filters
@@ -78,28 +124,38 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
+    font-weight: bold;
 }
 
 .filters a
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid #F2F2F2;
-    border-radius: 30px 60px 60px 30px;
+    border-radius: 30px 30px 30px 30px;
     background-color: white;
-    width: 100%;
+    width: 150px;
+    height: 40px;
 }
 
 .filters i
 {
-    border: 10px solid #DEEBFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
     color: #0065FC;
+    background-color: #DEEBFF;
     border-radius: 30px 30px 30px 30px;
-    width: 10%;
+    width: 50px;
+    height: 50px;
 }
 
 .economic
 {
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,9 +163,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 .family
 {
-    width: 100%;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,9 +172,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 .romantic
 {
-    width: 100%;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,9 +181,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 .pets
 {
-    width: 100%;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,14 +196,30 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 #container_text p
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
 }
 
-.info_text
+#container_text i
 {
-    border: 1px #F2F2F2 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px #F2F2F2 solid;
     border-radius: 30px 30px 30px 30px;
     color: #0065FC;
+    background-color: white;
+    width: 30px;
+    height: 30px;
 }
 
 #container_all_accommodations
@@ -193,6 +262,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 .element_accommodation img
 {
+    width: 20%;
     border-radius: 10px;
 }
 
