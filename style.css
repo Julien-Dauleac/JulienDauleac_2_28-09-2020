@@ -248,11 +248,13 @@ a:active
     background-color: #F2F2F2;
     width: 75%;
 }
+
 #container_accommodations h2
 {
     margin-top: 50px;
     margin-left: 20px;
 }
+
 .accommodations
 {
     display: flex;
@@ -271,7 +273,7 @@ a:active
 
 .element_accommodation4 img
 {
-    width: 20%;
+    width: 75%;
     border-radius: 10px;
 }
 
@@ -285,10 +287,10 @@ a:active
 }
 
 .element_accommodation5 img
- {
+{
      width: 20%;
      border-radius: 10px;
- }
+}
 
 .element_accommodation2
 {
