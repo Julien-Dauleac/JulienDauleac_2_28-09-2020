@@ -135,11 +135,10 @@ a:active
 {
     display: flex;
     align-items: center;
-    justify-content: center;
     border: 2px solid #F2F2F2;
     border-radius: 30px 30px 30px 30px;
     background-color: white;
-    width: 175px;
+    width: 150px;
     height: 50px;
 }
 
@@ -154,6 +153,8 @@ a:active
     border-radius: 30px 30px 30px 30px;
     width: 50px;
     height: 50px;
+    position: relative;
+    left: 50px;
 }
 
 .economic
@@ -161,8 +162,12 @@ a:active
     padding: 10px;
     margin: 10px;
     display: flex;
+}
+
+.economic a
+{
+    padding-left: 30px;
     justify-content: center;
-    align-items: center;
 }
 
 .family
@@ -174,6 +179,12 @@ a:active
     align-items: center;
 }
 
+.family a
+{
+    padding-left: 20px;
+    justify-content: center;
+}
+
 .romantic
 {
     padding: 10px;
@@ -183,6 +194,13 @@ a:active
     align-items: center;
 }
 
+.romantic a
+{
+    margin-left: 20px;
+    padding-left: 20px;
+    justify-content: center;
+}
+
 .pets
 {
     padding: 10px;
@@ -190,6 +208,12 @@ a:active
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.pets a
+{
+    padding-left: 50px;
+    justify-content: center;
 }
 
 #container_text
@@ -283,6 +307,8 @@ a:active
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px 10px 0px 0px;
+    position: relative;
+    bottom: 18px;
 }
 
 .element_accommodation2
@@ -301,6 +327,8 @@ a:active
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px 10px 0px 0px;
+    position: relative;
+    bottom: 18px;
 }
 
 .element_accommodation3
@@ -319,6 +347,8 @@ a:active
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px 10px 0px 0px;
+    position: relative;
+    bottom: 18px;
 }
 
 .element_accommodation4
@@ -337,6 +367,8 @@ a:active
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px 10px 0px 0px;
+    position: relative;
+    bottom: 18px;
 }
 
 .element_accommodation5
@@ -355,6 +387,8 @@ a:active
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px 10px 0px 0px;
+    position: relative;
+    bottom: 18px;
 }
 
 .element_accommodation6
@@ -373,6 +407,8 @@ a:active
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px 10px 0px 0px;
+    position: relative;
+    bottom: 18px;
 }
 
 #container_best_accommodations
