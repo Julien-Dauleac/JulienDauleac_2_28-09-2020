@@ -17,11 +17,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     list-style: none;
 }
 
-a
-{
-
-}
-
 a:link
 {
 }
@@ -65,13 +60,28 @@ a:active
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
-    border-top: 2px #0065FC solid;
-    color: #0065FC;
 }
 
 .navigation li
 {
     margin: 30px;
+}
+
+.accommodations_nav a:hover
+{
+    border-top: 2px #0065FC solid;
+    color: #0065FC;
+}
+
+.activity
+{
+
+}
+
+.register a:link
+{
+    font-weight: bold;
+    color: #0065FC
 }
 
 .search
