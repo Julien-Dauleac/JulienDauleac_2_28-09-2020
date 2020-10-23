@@ -9,7 +9,12 @@ body
 {
     font-family: Raleway;
 }
-
+img
+{
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
 a, a:link, a:visited, a:focus, a:hover, a:active
 {
     color: black;
@@ -314,7 +319,6 @@ a:active
 .element_accommodation1 img
 {
     display: flex;
-    max-width: 100%;
     max-height: 100%;
     border-radius: 10px 10px 0px 0px;
     position: relative;
@@ -334,7 +338,6 @@ a:active
 .element_accommodation2 img
 {
     display: flex;
-    max-width: 100%;
     max-height: 100%;
     border-radius: 10px 10px 0px 0px;
     position: relative;
@@ -354,11 +357,13 @@ a:active
 .element_accommodation3 img
 {
     display: flex;
-    max-width: 100%;
     max-height: 100%;
     border-radius: 10px 10px 0px 0px;
     position: relative;
     bottom: 18px;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
 }
 
 .element_accommodation4
@@ -374,7 +379,6 @@ a:active
 .element_accommodation4 img
 {
     display: flex;
-    max-width: 100%;
     max-height: 100%;
     border-radius: 10px 10px 0px 0px;
     position: relative;
@@ -394,7 +398,6 @@ a:active
 .element_accommodation5 img
 {
     display: flex;
-    max-width: 100%;
     max-height: 100%;
     border-radius: 10px 10px 0px 0px;
     position: relative;
@@ -414,7 +417,6 @@ a:active
 .element_accommodation6 img
 {
     display: flex;
-    max-width: 100%;
     max-height: 100%;
     border-radius: 10px 10px 0px 0px;
     position: relative;
@@ -467,16 +469,16 @@ a:active
     border-radius: 10px;
     border: 1px #F2F2F2 solid;
     background-color: white;
-    width: 90%;
+    width: 85%;
     margin-top: 25px;
 }
 
 .element_best_accommodation1 img
 {
-    display: flex;
     max-width: 100%;
-    max-height: 100%;
     border-radius: 15px 0px 0px 15px;
+    position: relative;
+    right: 20px;
 }
 
 .element_best_accommodation2
@@ -485,16 +487,16 @@ a:active
     border-radius: 10px;
     border: 1px #F2F2F2 solid;
     background-color: white;
-    width: 90%;
+    width: 85%;
     margin-top: 25px;
 }
 
 .element_best_accommodation2 img
 {
-    display: flex;
     max-width: 100%;
-    max-height: 100%;
     border-radius: 15px 0px 0px 15px;
+    position: relative;
+    right: 20px;
 }
 
 .element_best_accommodation3
@@ -503,16 +505,16 @@ a:active
     border-radius: 10px;
     border: 1px #F2F2F2 solid;
     background-color: white;
-    width: 90%;
+    width: 85%;
     margin-top: 25px;
 }
 
 .element_best_accommodation3 img
 {
-    display: flex;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 75%;
     border-radius: 15px 0px 0px 15px;
+    position: relative;
+    right: 20px;
 }
 
 .star-blue
@@ -547,7 +549,7 @@ a:active
     border: 1px white solid;
     border-radius: 15px;
     box-shadow: 1px 1px 1px #F2F2F2;
-    width: 10%;
+    width: 15%;
     margin: 50px;
 }
 
