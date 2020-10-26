@@ -97,6 +97,7 @@ a:active
 .search
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     width: 30%;
 }
@@ -181,7 +182,7 @@ a:active
 .filters a:hover
 {
     text-decoration: underline;
-    color: green;
+    color: #0065FC;
 }
 
 .economic
@@ -328,12 +329,17 @@ a:active
     width: 25%;
 }
 
+.text-accommodation1
+{
+}
+
 .element_accommodation1 img
 {
     display: flex;
     max-height: 100%;
-    width: auto;
+    max-width: 100%;
     border-radius: 20px 20px 0px 0px;
+    background-position: 30%, 50%;
 }
 
 .element_accommodation2
