@@ -178,6 +178,12 @@ a:active
     left: 50px;
 }
 
+.filters a:hover
+{
+    text-decoration: underline;
+    color: green;
+}
+
 .economic
 {
     margin: 10px;
@@ -346,8 +352,6 @@ a:active
     max-height: 100%;
     width: auto;
     border-radius: 20px 20px 0px 0px;
-    position: relative;
-    bottom: 18px;
 }
 
 .element_accommodation3
@@ -366,8 +370,6 @@ a:active
     max-height: 100%;
     max-width: 100%;
     border-radius: 20px 20px 0px 0px;
-    position: relative;
-    bottom: 18px;
 }
 
 .element_accommodation4
@@ -386,8 +388,6 @@ a:active
     max-height: 100%;
     width: auto;
     border-radius: 20px 20px 0px 0px;
-    position: relative;
-    bottom: 18px;
 }
 
 .element_accommodation5
@@ -406,8 +406,6 @@ a:active
     max-height: 100%;
     width: auto;
     border-radius: 20px 20px 0px 0px;
-    position: relative;
-    bottom: 18px;
 }
 
 .element_accommodation6
@@ -425,8 +423,6 @@ a:active
     max-height: 100%;
     max-width: 100%;
     display: flex;
-    position: relative;
-    bottom: 18px;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -485,7 +481,6 @@ a:active
     max-width: 100%;
     border-radius: 20px 0px 0px 20px;
     position: relative;
-    right: 20px;
 }
 
 .element_best_accommodation2
@@ -503,7 +498,6 @@ a:active
     max-width: 100%;
     border-radius: 20px 0px 0px 20px;
     position: relative;
-    right: 20px;
 }
 
 .element_best_accommodation3
@@ -521,7 +515,6 @@ a:active
     max-width: 75%;
     border-radius: 20px 0px 0px 20px;
     position: relative;
-    right: 20px;
 }
 
 .star-blue
