@@ -9,12 +9,14 @@ body
 {
     font-family: Raleway, sans-serif;
 }
+
 img
 {
     background-size: cover;
     width: 300px;
     height: 200px;
 }
+
 a, a:link, a:visited, a:focus, a:hover, a:active
 {
     color: black;
@@ -72,21 +74,24 @@ a:active
     padding: 30px;
 }
 
-.accommodations_nav a:hover
+.accommodations_nav a:link
 {
     border-top: 2px #0065FC solid;
     color: #0065FC;
+    padding: 30px;
 }
 
-.activity
+.activity a:link
 {
+    padding: 30px;
 
 }
 
 .register a:link
 {
     font-weight: bold;
-    color: #0065FC
+    color: #0065FC;
+    padding: 30px;
 }
 
 .search
