@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
 body
 {
     font-family: Raleway, sans-serif;
@@ -10,30 +11,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     color: black;
     text-decoration:none;
     list-style: none;
-}
-
-a:link
-{
-}
-
-a:visited
-{
-
-}
-
-a:focus
-{
-
-}
-
-a:hover
-{
-
-}
-
-a:active
-{
-
 }
 
 #logo
@@ -59,14 +36,14 @@ a:active
 
 .navigation li
 {
-    padding: 30px;
+    padding: 20px;
 }
 
 .accommodations_nav a:link
 {
     border-top: 2px #0065FC solid;
     color: #0065FC;
-    padding: 30px;
+    padding: 40px;
 }
 
 .activity a:link
@@ -98,9 +75,10 @@ a:active
     border: 50px;
 }
 
-.holder
+::placeholder
 {
     font-weight: bold;
+    color: black;
 }
 
 .submit
@@ -137,6 +115,7 @@ a:active
 {
     display: flex;
     flex-wrap: wrap;
+    margin: 10px;
     padding: 10px;
     font-weight: bold;
     position: relative;
@@ -150,7 +129,7 @@ a:active
     border: 2px solid #F2F2F2;
     border-radius: 30px 30px 30px 30px;
     background-color: white;
-    padding: 25px;
+    padding: 10px;
 }
 
 .filters i
@@ -162,7 +141,7 @@ a:active
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 30px 30px 30px 30px;
-    width: 40px;
+    padding: 15px;
     position: relative;
     left: 40px;
 }
@@ -182,8 +161,8 @@ a:active
 
 .economic a
 {
-    padding-left: 20px;
-    justify-content: center;
+    padding-left: 50px;
+    justify-content: flex-start;
 }
 
 .family
@@ -197,7 +176,7 @@ a:active
 
 .family a
 {
-    padding-left: 15px;
+    padding-left: 50px;
     justify-content: center;
 }
 
@@ -212,7 +191,7 @@ a:active
 
 .romantic a
 {
-    padding-left: 15px;
+    padding-left: 50px;
     justify-content: center;
 }
 
@@ -293,8 +272,8 @@ a:active
 
 #container_accommodations h2
 {
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
 }
 
 .accommodations
@@ -304,7 +283,7 @@ a:active
     justify-content: space-around;
 }
 
-.element_accommodation1
+.element_accommodation
 {
     display: flex;
     flex-wrap: wrap;
@@ -316,105 +295,10 @@ a:active
     width: 25%;
 }
 
-.element_accommodation1 img
+.element_accommodation img
 {
     display: flex;
     max-width: 100%;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.element_accommodation2
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    border-radius: 30px;
-    border: 1px #F2F2F2 solid;
-    background-color: white;
-    width: 25%;
-}
-
-.element_accommodation2 img
-{
-    display: flex;
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.element_accommodation3
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    border-radius: 30px;
-    border: 1px #F2F2F2 solid;
-    background-color: white;
-    width: 25%;
-}
-
-.element_accommodation3 img
-{
-    display: flex;
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.element_accommodation4
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    border-radius: 30px;
-    border: 1px #F2F2F2 solid;
-    background-color: white;
-    width: 25%;
-}
-
-.element_accommodation4 img
-{
-    display: flex;
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.element_accommodation5
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    border-radius: 30px;
-    border: 1px #F2F2F2 solid;
-    background-color: white;
-    width: 25%;
-}
-
-.element_accommodation5 img
-{
-    display: flex;
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.element_accommodation6
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    border-radius: 30px;
-    border: 1px #F2F2F2 solid;
-    background-color: white;
-    width: 25%;
-}
-
-.element_accommodation6 img
-{
-    max-height: 100%;
-    max-width: 100%;
-    display: flex;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -436,17 +320,17 @@ a:active
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .text_best_accommodations h2
 {
-    margin-left: 35px;
+    margin-left: 25px;
 }
 
 .text_best_accommodations i
 {
-    margin-right: 35px;
+    margin-right: 25px;
 }
 
 .best_accommodations
@@ -458,57 +342,21 @@ a:active
     align-items: center;
 }
 
-.element_best_accommodation1
+.element_best_accommodation
 {
     display: flex;
+    margin: 20px;
+    padding: 10px;
     border-radius: 30px;
     border: 1px #F2F2F2 solid;
     background-color: white;
     height: 25%;
-    margin-top: 25px;
 }
 
-.element_best_accommodation1 img
+.element_best_accommodation img
 {
     display: flex;
-    max-width: 75%;
-    max-height: 75%;
-    border-radius: 20px 0px 0px 20px;
-}
-
-.element_best_accommodation2
-{
-    display: flex;
-    border-radius: 30px;
-    border: 1px #F2F2F2 solid;
-    background-color: white;
-    height: 25%;
-    margin-top: 25px;
-}
-
-.element_best_accommodation2 img
-{
-    display: flex;
-    max-width: 75%;
-    max-height: 75%;
-    border-radius: 20px 0px 0px 20px;
-}
-
-.element_best_accommodation3
-{
-    display: flex;
-    border-radius: 30px;
-    border: 1px #F2F2F2 solid;
-    background-color: white;
-    height: 25%;
-    margin-top: 25px;
-}
-
-.element_best_accommodation3 img
-{
-    display: flex;
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 100%;
     border-radius: 20px 0px 0px 20px;
 }
 
