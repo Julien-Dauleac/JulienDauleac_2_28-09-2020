@@ -1,20 +1,8 @@
-@import url('https://fonts.googleapis.com/css2? family = Raleway: wght @ 400 & display = swap');
-@import url('https://fonts.googleapis.com/css2? family = Raleway: wght @ 700 & display = swap');
-@font-face
-{
-    font-family: Raleway;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 body
 {
     font-family: Raleway, sans-serif;
-}
-
-img
-{
-    background-size: cover;
-    width: 300px;
-    height: 200px;
 }
 
 a, a:link, a:visited, a:focus, a:hover, a:active
@@ -162,8 +150,7 @@ a:active
     border: 2px solid #F2F2F2;
     border-radius: 30px 30px 30px 30px;
     background-color: white;
-    width: 150px;
-    height: 40px;
+    padding: 25px;
 }
 
 .filters i
@@ -210,7 +197,7 @@ a:active
 
 .family a
 {
-    padding-left: 20px;
+    padding-left: 15px;
     justify-content: center;
 }
 
@@ -225,7 +212,7 @@ a:active
 
 .romantic a
 {
-    padding-left: 20px;
+    padding-left: 15px;
     justify-content: center;
 }
 
@@ -240,8 +227,8 @@ a:active
 
 .pets a
 {
-    padding-left: 75px;
-    justify-content: start;
+    padding-left: 50px;
+    justify-content: flex-start;
 }
 
 #container_text
@@ -290,8 +277,6 @@ a:active
 #container_all_accommodations a
 {
     justify-content: flex-start;
-    margin-top: 15px;
-    margin-left: 20px;
     font-weight: bold;
 }
 
@@ -324,21 +309,17 @@ a:active
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
+    padding: 10px;
     border-radius: 30px;
     border: 1px #F2F2F2 solid;
     background-color: white;
     width: 25%;
 }
 
-.text-accommodation1
-{
-}
-
 .element_accommodation1 img
 {
     display: flex;
-    max-height: 80%;
-    max-width: 80%;
+    max-width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -563,16 +544,15 @@ a:active
     border: 1px white solid;
     border-radius: 15px;
     box-shadow: 1px 1px 1px #F2F2F2;
-    width: 15%;
-    margin: 50px;
+    width: 25%;
+    margin: 10px;
 }
 
 .element_activity1 img
 {
     border-radius: 10px 10px 0px 0px;
     display: flex;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
 }
 
 .element_activity2
