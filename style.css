@@ -293,12 +293,14 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     border: 1px #F2F2F2 solid;
     background-color: white;
     width: 25%;
+    overflow: hidden;
 }
 
 .element_accommodation img
 {
     display: flex;
     width: 100%;
+    max-height: 250px;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -356,6 +358,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 {
     display: flex;
     width: 100%;
+    max-height: 200px;
     border-radius: 20px 0px 0px 20px;
 }
 
@@ -383,7 +386,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 .activities
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .activities h3
@@ -393,29 +396,34 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 .element_activity1
 {
-    border: 2px white solid;
     border-radius: 15px;
     box-shadow: 10px 10px 10px #F2F2F2;
-    width: 30%;
+    width: 25%;
+    height: 100%;
+    margin: 20px;
 }
 
 .element_activity1 img
 {
     border-radius: 10px 10px 0px 0px;
-    width: 100%;
+    height: 90%;
+    max-width: 100%;
 }
 
 .element_activity2
 {
-    border: 1px white solid;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #F2F2F2;
-    width: 75%;
+    width: 90%;
+    height: 50%;
+    margin: 20px;
 }
 
 .element_activity2 img
 {
+    display: flex;
     border-radius: 10px 10px 0px 0px;
+    max-height: 300px;
     width: 100%;
 }
 
