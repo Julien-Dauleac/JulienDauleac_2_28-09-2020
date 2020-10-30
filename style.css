@@ -496,35 +496,28 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     margin: 20px;
 }
 
-.picture1
+.element_activity1 img
 {
-    display: flex;
-    max-width: 100%;
+    max-height: 100%;
     clip-path: inset(0% 27% 0% 27% round 20px 20px 0px 0px);
 }
 
-.picture2
+.element_activity2 img
 {
-    display: flex;
-    width: 200px;
-    clip-path: inset(0% 0% 0% 0% round 20px 20px 0px 0px);;
-    max-height: 300px;
+    max-height: 100%;
+    clip-path: inset(20% 0% 20% 0% round 20px 20px 0px 0px);
 }
 
-.picture3
+.element_activity3 img
 {
-    display: flex;
-    width: 200px;
-    clip-path: inset(0% 0% 19% 0% round 20px 20px 0px 0px);
-    max-height: 300px;
+    max-height: 100%;
+    clip-path: inset(20% 0% 20% 0% round 20px 20px 0px 0px);
 }
 
-.picture4
+.element_activity4 img
 {
-    display: flex;
-    width: 200px;
-    clip-path: inset(0% 0% 19% 0% round 20px 20px 0px 0px);
-    max-height: 300px;
+    max-height: 100%;
+    clip-path: inset(0% 0% 25% 0% round 20px 20px 0px 0px);
 }
 
 #container_footer
