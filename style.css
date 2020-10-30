@@ -313,18 +313,14 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 {
     display: flex;
     width: 100%;
-    clip-path: inset(20% 2% 42% 2% round 20px 20px 0px 0px);
-    position: relative;
-    overflow: hidden;
+    clip-path: inset(15% 0% 15% 0% round 20px 20px 0px 0px);
 }
 
 .landscape_accommodation2
 {
     display: flex;
     width: 100%;
-    clip-path: inset(20% 2% 42% 2% round 20px 20px 0px 0px);
-    position: relative;
-    overflow: hidden;
+    clip-path: inset(0% 0% 50% 0% round 20px 20px 0px 0px);
 }
 
 .portrait_accommodation1
@@ -332,8 +328,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     display: flex;
     width: 100%;
     clip-path: inset(20% 2% 42% 2% round 20px 20px 0px 0px);
-    position: relative;
-    overflow: hidden;
 }
 
 .portrait_accommodation2
@@ -341,8 +335,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     display: flex;
     width: 100%;
     clip-path: inset(30% 1% 33% 2% round 20px 20px 0px 0px);
-    position: relative;
-    overflow: hidden;
 }
 
 .text_accommodation
@@ -468,55 +460,51 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 {
     border-radius: 15px;
     box-shadow: 10px 10px 10px #F2F2F2;
-    width: 20%;
-    margin: 20px;
+    width: 30%;
 }
 
 .element_activity2
 {
     border-radius: 10px;
     box-shadow: 5px 5px 5px #F2F2F2;
-    height: 50%;
-    margin: 20px;
+    width: 90%;
 }
 
 .element_activity3
 {
     border-radius: 10px;
     box-shadow: 5px 5px 5px #F2F2F2;
-    height: 50%;
-    margin: 20px;
+    width: 90%;
 }
 
 .element_activity4
 {
     border-radius: 10px;
     box-shadow: 5px 5px 5px #F2F2F2;
-    height: 50%;
-    margin: 20px;
+    width: 90%;
 }
 
 .element_activity1 img
 {
-    max-height: 100%;
+    max-width: 100%;
     clip-path: inset(0% 27% 0% 27% round 20px 20px 0px 0px);
 }
 
 .element_activity2 img
 {
-    max-height: 100%;
+    max-width: 100%;
     clip-path: inset(20% 0% 20% 0% round 20px 20px 0px 0px);
 }
 
 .element_activity3 img
 {
-    max-height: 100%;
+    max-width: 100%;
     clip-path: inset(20% 0% 20% 0% round 20px 20px 0px 0px);
 }
 
 .element_activity4 img
 {
-    max-height: 100%;
+    max-width: 100%;
     clip-path: inset(0% 0% 25% 0% round 20px 20px 0px 0px);
 }
 
