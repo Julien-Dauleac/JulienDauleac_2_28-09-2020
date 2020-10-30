@@ -468,8 +468,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 {
     border-radius: 15px;
     box-shadow: 10px 10px 10px #F2F2F2;
-    width: 40%;
-    height: 100%;
+    width: 20%;
     margin: 20px;
 }
 
@@ -477,7 +476,22 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 {
     border-radius: 10px;
     box-shadow: 5px 5px 5px #F2F2F2;
-    width: 90%;
+    height: 50%;
+    margin: 20px;
+}
+
+.element_activity3
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    height: 50%;
+    margin: 20px;
+}
+
+.element_activity4
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #F2F2F2;
     height: 50%;
     margin: 20px;
 }
@@ -485,18 +499,16 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 .picture1
 {
     display: flex;
-    width: 200px;
-    clip-path: inset(0% 0% 19% 0% round 20px 20px 0px 0px);
-    height: 90%;
     max-width: 100%;
+    clip-path: inset(0% 27% 0% 27% round 20px 20px 0px 0px);
 }
 
 .picture2
 {
     display: flex;
     width: 200px;
-    clip-path: inset(0% 0% 19% 0% round 20px 20px 0px 0px);;
-    max-height: 300px;;
+    clip-path: inset(0% 0% 0% 0% round 20px 20px 0px 0px);;
+    max-height: 300px;
 }
 
 .picture3
@@ -504,7 +516,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     display: flex;
     width: 200px;
     clip-path: inset(0% 0% 19% 0% round 20px 20px 0px 0px);
-    max-height: 300px;;
+    max-height: 300px;
 }
 
 .picture4
