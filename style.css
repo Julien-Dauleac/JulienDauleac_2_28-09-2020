@@ -300,6 +300,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     border: 1px #F2F2F2 solid;
     background-color: white;
     width: 24%;
+    overflow: hidden;
 }
 
 .element_accommodation img
@@ -313,6 +314,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     display: flex;
     width: 100%;
     clip-path: inset(15% 0% 15% 0% round 20px 20px 0px 0px);
+    position: relative;
 }
 
 .landscape_accommodation2
@@ -320,6 +322,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     display: flex;
     width: 100%;
     clip-path: inset(0% 0% 50% 0% round 20px 20px 0px 0px);
+    position: relative;
 }
 
 .portrait_accommodation1
@@ -327,6 +330,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     display: flex;
     width: 100%;
     clip-path: inset(20% 2% 42% 2% round 20px 20px 0px 0px);
+    position: relative;
 }
 
 .portrait_accommodation2
@@ -334,6 +338,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     display: flex;
     width: 100%;
     clip-path: inset(30% 1% 33% 2% round 20px 20px 0px 0px);
+    position: relative;
 }
 
 .text_accommodation
@@ -389,6 +394,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     border: 1px #F2F2F2 solid;
     background-color: white;
     width: 85%;
+    overflow: hidden;
 }
 
 .element_best_accommodation img
@@ -402,6 +408,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     display: flex;
     width: 300px;
     clip-path: inset(0% 20% 0% 20% round 20px 0px 0px 20px);
+    position: relative;
 }
 
 .portrait_best_accommodation
@@ -409,6 +416,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     display: flex;
     width: 200px;
     clip-path: inset(0% 0% 18% 0% round 20px 0px 0px 20px);
+    position: relative;
 }
 
 .text_best_accommodation
