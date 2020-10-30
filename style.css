@@ -305,40 +305,31 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 .element_accommodation img
 {
-    display: flex;
     width: 100%;
 }
 
 .landscape_accommodation1
 {
-    display: flex;
     width: 100%;
     clip-path: inset(15% 0% 15% 0% round 20px 20px 0px 0px);
-    position: relative;
 }
 
 .landscape_accommodation2
 {
-    display: flex;
     width: 100%;
     clip-path: inset(0% 0% 50% 0% round 20px 20px 0px 0px);
-    position: relative;
 }
 
 .portrait_accommodation1
 {
-    display: flex;
     width: 100%;
     clip-path: inset(20% 2% 42% 2% round 20px 20px 0px 0px);
-    position: relative;
 }
 
 .portrait_accommodation2
 {
-    display: flex;
     width: 100%;
     clip-path: inset(30% 1% 33% 2% round 20px 20px 0px 0px);
-    position: relative;
 }
 
 .text_accommodation
@@ -399,24 +390,19 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 .element_best_accommodation img
 {
-    display: flex;
     max-width: 100%;
 }
 
 .landscape_best_accommodation
 {
-    display: flex;
     width: 300px;
     clip-path: inset(0% 20% 0% 20% round 20px 0px 0px 20px);
-    position: relative;
 }
 
 .portrait_best_accommodation
 {
-    display: flex;
     width: 200px;
     clip-path: inset(0% 0% 18% 0% round 20px 0px 0px 20px);
-    position: relative;
 }
 
 .text_best_accommodation
@@ -492,25 +478,25 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 .element_activity1 img
 {
-    max-width: 100%;
+    width: 100%;
     clip-path: inset(0% 27% 0% 27% round 20px 20px 0px 0px);
 }
 
 .element_activity2 img
 {
-    max-width: 100%;
+    width: 100%;
     clip-path: inset(20% 0% 20% 0% round 20px 20px 0px 0px);
 }
 
 .element_activity3 img
 {
-    max-width: 100%;
+    width: 100%;
     clip-path: inset(20% 0% 20% 0% round 20px 20px 0px 0px);
 }
 
 .element_activity4 img
 {
-    max-width: 100%;
+    width: 100%;
     clip-path: inset(0% 0% 25% 0% round 20px 20px 0px 0px);
 }
 
