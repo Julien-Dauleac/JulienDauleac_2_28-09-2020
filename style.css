@@ -473,13 +473,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     margin: 20px;
 }
 
-.element_activity1 img
-{
-    border-radius: 10px 10px 0px 0px;
-    height: 90%;
-    max-width: 100%;
-}
-
 .element_activity2
 {
     border-radius: 10px;
@@ -489,12 +482,37 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     margin: 20px;
 }
 
-.element_activity2 img
+.picture1
 {
     display: flex;
-    border-radius: 10px 10px 0px 0px;
+    width: 200px;
+    clip-path: inset(0% 0% 19% 0% round 20px 20px 0px 0px);
+    height: 90%;
+    max-width: 100%;
+}
+
+.picture2
+{
+    display: flex;
+    width: 200px;
+    clip-path: inset(0% 0% 19% 0% round 20px 20px 0px 0px);;
+    max-height: 300px;;
+}
+
+.picture3
+{
+    display: flex;
+    width: 200px;
+    clip-path: inset(0% 0% 19% 0% round 20px 20px 0px 0px);
+    max-height: 300px;;
+}
+
+.picture4
+{
+    display: flex;
+    width: 200px;
+    clip-path: inset(0% 0% 19% 0% round 20px 20px 0px 0px);
     max-height: 300px;
-    width: 100%;
 }
 
 #container_footer
