@@ -304,11 +304,67 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 .img_accommodation1
 {
-    width: 500px;
-    height: 150px;
+    width: 350px;
+    height: 135px;
     border-radius: 15px 15px 0px 0px;
     background-image: url(images/accommodations/accommodation_7_small.jpg);
-    background-position: center center;
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.img_accommodation2
+{
+    width: 350px;
+    height: 135px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(images/accommodations/accommodation_4_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.img_accommodation3
+{
+    width: 350px;
+    height: 135px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(images/accommodations/accommodation_9_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.img_accommodation4
+{
+    width: 350px;
+    height: 135px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(images/accommodations/accommodation_5_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.img_accommodation5
+{
+    width: 350px;
+    height: 135px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(images/accommodations/accommodation_8_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.img_accommodation6
+{
+    width: 350px;
+    height: 135px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(images/accommodations/accommodation_2_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
@@ -366,6 +422,39 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     background-color: white;
     width: 85%;
     overflow: hidden;
+}
+
+.img_best_accommodation1
+{
+    width: 200px;
+    height: 175px;
+    border-radius: 15px 0px 0px 15px;
+    background-image: url(images/accommodations/accommodation_6_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.img_best_accommodation2
+{
+    width: 300px;
+    height: 175px;
+    border-radius: 15px 0px 0px 15px;
+    background-image: url(images/accommodations/accommodation_1_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.img_best_accommodation3
+{
+    width: 200px;
+    height: 175px;
+    border-radius: 15px 0px 0px 15px;
+    background-image: url(images/accommodations/accommodation_3_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
 }
 
 .text_best_accommodation
@@ -437,6 +526,72 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     border-radius: 10px;
     box-shadow: 5px 5px 5px #F2F2F2;
     width: 90%;
+}
+
+.img_activity1
+{
+    width: 200px;
+    height: 175px;
+    border-radius: 15px 0px 0px 15px;
+    background-image: url(images/activities/activity_6_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.img_activity2
+{
+    width: 200px;
+    height: 175px;
+    border-radius: 15px 0px 0px 15px;
+    background-image: url(images/activities/activity_1_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.img_activity3
+{
+    width: 200px;
+    height: 175px;
+    border-radius: 15px 0px 0px 15px;
+    background-image: url(images/activities/activity_2_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.img_activity4
+{
+    width: 200px;
+    height: 175px;
+    border-radius: 15px 0px 0px 15px;
+    background-image: url(images/activities/activity_5_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.img_activity5
+{
+    width: 200px;
+    height: 175px;
+    border-radius: 15px 0px 0px 15px;
+    background-image: url(images/activities/activity_3_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.img_activity6
+{
+    width: 200px;
+    height: 175px;
+    border-radius: 15px 0px 0px 15px;
+    background-image: url(images/activities/activity_4_small.jpg);
+    background-size: 350px;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
 }
 
 #container_footer
