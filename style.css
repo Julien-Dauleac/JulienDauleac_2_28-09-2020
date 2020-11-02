@@ -6,6 +6,11 @@ body
     font-family: Raleway, sans-serif;
 }
 
+h1, h2, h3
+{
+    font-weight: bold;
+}
+
 a, a:link, a:visited, a:focus, a:hover, a:active
 {
     color: black;
@@ -502,94 +507,102 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 .element_activity1
 {
-    border-radius: 15px;
+    border-radius: 30px;
     box-shadow: 10px 10px 10px #F2F2F2;
-    width: 30%;
+    width: 400px;
+    height: 575px;
+    margin: 30px;
 }
 
 .element_activity2
 {
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 5px 5px 5px #F2F2F2;
-    width: 90%;
+    width: 400px;
+    height: 300px;
+    margin: 50px;
 }
 
 .element_activity3
 {
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 5px 5px 5px #F2F2F2;
-    width: 90%;
+    width: 400px;
+    height: 200px;
+    margin: 50px;
 }
 
 .element_activity4
 {
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 5px 5px 5px #F2F2F2;
-    width: 90%;
+    width: 400px;
+    height: 250px;
+    margin: 30px;
 }
 
 .img_activity1
 {
-    width: 200px;
-    height: 175px;
-    border-radius: 15px 0px 0px 15px;
+    width: 400px;
+    height: 80%;
+    border-radius: 30px 30px 0px 0px;
     background-image: url(images/activities/activity_6_small.jpg);
-    background-size: 350px;
-    background-position: 50% 40%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 .img_activity2
 {
-    width: 200px;
-    height: 175px;
-    border-radius: 15px 0px 0px 15px;
+    width: 100%;
+    height: 80%;
+    border-radius: 30px 30px 0px 0px;
     background-image: url(images/activities/activity_1_small.jpg);
-    background-size: 350px;
+    background-size: cover;
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
 .img_activity3
 {
-    width: 200px;
-    height: 175px;
-    border-radius: 15px 0px 0px 15px;
+    width: 100%;
+    height: 80%;
+    border-radius: 30px 30px 0px 0px;
     background-image: url(images/activities/activity_2_small.jpg);
-    background-size: 350px;
+    background-size: cover;
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
 .img_activity4
 {
-    width: 200px;
-    height: 175px;
-    border-radius: 15px 0px 0px 15px;
+    width: 400px;
+    height: 80%;
+    border-radius: 30px 30px 0px 0px;
     background-image: url(images/activities/activity_5_small.jpg);
-    background-size: 350px;
+    background-size: cover;
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
 .img_activity5
 {
-    width: 200px;
-    height: 175px;
-    border-radius: 15px 0px 0px 15px;
+    width: 100%;
+    height: 55%;
+    border-radius: 30px 30px 0px 0px;
     background-image: url(images/activities/activity_3_small.jpg);
-    background-size: 350px;
+    background-size: cover;
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
 .img_activity6
 {
-    width: 200px;
-    height: 175px;
-    border-radius: 15px 0px 0px 15px;
+    width: 100%;
+    height: 65%;
+    border-radius: 30px 30px 0px 0px;
     background-image: url(images/activities/activity_4_small.jpg);
-    background-size: 350px;
+    background-size: cover;
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
