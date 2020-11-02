@@ -301,15 +301,15 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     background-color: white;
     width: 24%;
 }
-.img_accommodation
+
+.img_accommodation1
 {
     width: 500px;
+    height: 150px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(images/accommodations/accommodation_7_small.jpg)
-}
-.element_accommodation img
-{
-    width: 100%;
+    background-image: url(images/accommodations/accommodation_7_small.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .text_accommodation
@@ -366,11 +366,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     background-color: white;
     width: 85%;
     overflow: hidden;
-}
-
-.element_best_accommodation img
-{
-    max-width: 100%;
 }
 
 .text_best_accommodation
@@ -442,30 +437,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     border-radius: 10px;
     box-shadow: 5px 5px 5px #F2F2F2;
     width: 90%;
-}
-
-.element_activity1 img
-{
-    width: 100%;
-    clip-path: inset(0% 27% 0% 27% round 20px 20px 0px 0px);
-}
-
-.element_activity2 img
-{
-    width: 100%;
-    clip-path: inset(20% 0% 20% 0% round 20px 20px 0px 0px);
-}
-
-.element_activity3 img
-{
-    width: 100%;
-    clip-path: inset(20% 0% 20% 0% round 20px 20px 0px 0px);
-}
-
-.element_activity4 img
-{
-    width: 100%;
-    clip-path: inset(0% 0% 25% 0% round 20px 20px 0px 0px);
 }
 
 #container_footer
