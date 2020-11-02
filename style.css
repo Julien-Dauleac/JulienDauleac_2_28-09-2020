@@ -6,11 +6,6 @@ body
     font-family: Raleway, sans-serif;
 }
 
-h1, h2, h3
-{
-    font-weight: bold;
-}
-
 a, a:link, a:visited, a:focus, a:hover, a:active
 {
     color: black;
@@ -305,7 +300,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     border: 1px #F2F2F2 solid;
     background-color: white;
     width: 25%;
-    height: 45%;
+    height: 40%;
 }
 
 .img_accommodation1
@@ -404,6 +399,11 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 {
     margin-left: 25px;
     margin-top: 30px;
+}
+
+.text_best_accommodations p
+{
+    margin-bottom: 50px;
 }
 
 .text_best_accommodations i
