@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
+@media screen and (max-device-width) /* Mobile resolution */
+{
+
+}
+
+@media screen and (max-width: 1024px) /* Tablet resolution */
+{
+
+}
+
 body
 {
     font-family: Raleway, sans-serif;
