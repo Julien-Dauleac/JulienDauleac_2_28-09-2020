@@ -283,7 +283,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 .show_more
 {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 50px;
 }
@@ -299,12 +299,13 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
     padding: 10px;
+    margin-bottom: 50px;
     border-radius: 30px;
     border: 1px #F2F2F2 solid;
     background-color: white;
-    width: 24%;
+    width: 25%;
+    height: 45%;
 }
 
 .img_accommodation1
@@ -313,8 +314,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     height: 135px;
     border-radius: 15px 15px 0px 0px;
     background-image: url(images/accommodations/accommodation_7_small.jpg);
-    background-size: 350px;
-    background-position: 50% 40%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -324,8 +325,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     height: 135px;
     border-radius: 15px 15px 0px 0px;
     background-image: url(images/accommodations/accommodation_4_small.jpg);
-    background-size: 350px;
-    background-position: 50% 40%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -335,8 +336,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     height: 135px;
     border-radius: 15px 15px 0px 0px;
     background-image: url(images/accommodations/accommodation_9_small.jpg);
-    background-size: 350px;
-    background-position: 50% 40%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -346,8 +347,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     height: 135px;
     border-radius: 15px 15px 0px 0px;
     background-image: url(images/accommodations/accommodation_5_small.jpg);
-    background-size: 350px;
-    background-position: 50% 40%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -357,8 +358,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     height: 135px;
     border-radius: 15px 15px 0px 0px;
     background-image: url(images/accommodations/accommodation_8_small.jpg);
-    background-size: 350px;
-    background-position: 50% 40%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -368,8 +369,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     height: 135px;
     border-radius: 15px 15px 0px 0px;
     background-image: url(images/accommodations/accommodation_2_small.jpg);
-    background-size: 350px;
-    background-position: 50% 40%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -402,11 +403,13 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 .text_best_accommodations h2
 {
     margin-left: 25px;
+    margin-top: 30px;
 }
 
 .text_best_accommodations i
 {
     margin-right: 25px;
+    margin-top: 20px;
 }
 
 .best_accommodations
@@ -420,45 +423,44 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 .element_best_accommodation
 {
     display: flex;
-    margin: 20px;
+    margin-bottom: 40px;
     padding: 10px;
     border-radius: 30px;
     border: 1px #F2F2F2 solid;
     background-color: white;
-    width: 85%;
-    overflow: hidden;
+    width: 75%;
 }
 
 .img_best_accommodation1
 {
-    width: 200px;
+    width: 150px;
     height: 175px;
     border-radius: 15px 0px 0px 15px;
     background-image: url(images/accommodations/accommodation_6_small.jpg);
-    background-size: 350px;
-    background-position: 50% 40%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 .img_best_accommodation2
 {
-    width: 300px;
+    width: 185px;
     height: 175px;
     border-radius: 15px 0px 0px 15px;
     background-image: url(images/accommodations/accommodation_1_small.jpg);
-    background-size: 350px;
-    background-position: 50% 40%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 .img_best_accommodation3
 {
-    width: 200px;
+    width: 150px;
     height: 175px;
     border-radius: 15px 0px 0px 15px;
     background-image: url(images/accommodations/accommodation_3_small.jpg);
-    background-size: 350px;
-    background-position: 50% 40%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
