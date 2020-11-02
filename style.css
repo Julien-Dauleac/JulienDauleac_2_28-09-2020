@@ -311,7 +311,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 .landscape_accommodation1
 {
     width: 100%;
-    clip-path: inset(15% 0% 15% 0% round 20px 20px 0px 0px);
+    clip-path: inset(15% 0% 15% 0% );
 }
 
 .landscape_accommodation2
