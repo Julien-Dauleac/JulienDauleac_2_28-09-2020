@@ -72,7 +72,6 @@ main
 .search
 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-start;
     width: 30%;
 }
@@ -83,6 +82,11 @@ main
     justify-content: center;
     align-items: center;
     border: 50px;
+}
+
+#fa-search
+{
+    display: none;
 }
 
 ::placeholder
@@ -695,6 +699,17 @@ main
 
 @media (max-width: 1140px)
 {
+    .search
+    {
+        display: flex;
+        align-items: center;
+        width: 15%;
+    }
+
+    #fa-search
+    {
+        border: 25px;
+    }
 
 }
 
