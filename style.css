@@ -519,7 +519,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     box-shadow: 10px 10px 10px #F2F2F2;
     width: 400px;
     height: 550px;
-    margin: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
 }
 
 .element_activity2
@@ -544,6 +545,15 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 .element_activity4
 {
     border-radius: 30px;
+    box-shadow: 10px 10px 10px #F2F2F2;
+    width: 400px;
+    height: 550px;
+    margin: 30px;
+}
+
+.element_activity5
+{
+    border-radius: 30px;
     box-shadow: 5px 5px 5px #F2F2F2;
     width: 400px;
     height: 240px;
@@ -551,7 +561,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     margin-left: 30px;
 }
 
-.element_activity5
+.element_activity6
 {
     border-radius: 30px;
     box-shadow: 5px 5px 5px #F2F2F2;
