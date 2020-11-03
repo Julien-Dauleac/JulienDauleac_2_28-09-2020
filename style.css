@@ -41,6 +41,7 @@ main
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    padding-right: 20px;
 }
 
 .navigation li
@@ -270,7 +271,6 @@ main
 }
 
 #container_accommodations
-
 {
     display: flex;
     flex-wrap: wrap;
@@ -524,13 +524,13 @@ main
     margin: 20px;
 }
 
-.column
+.column_activities
 {
-    width: 22%;
-    margin-left: 3%;
+    width: 23%;
+    margin-left: 2%;
 }
 
-.column:first-child
+.column_activities:first-child
 {
     margin-left: 0;
 }
