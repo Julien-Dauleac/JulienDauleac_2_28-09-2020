@@ -407,27 +407,13 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 .text_best_accommodations h2
 {
-    margin-left: 25px;
+    margin-left: 50px;
     margin-top: 30px;
-}
-
-.text_best_accommodation
-{
-
-}
-
-.text_best_accommodation p
-{
-}
-
-.text_best_accommodation i
-{
-    margin-top: 10px;
 }
 
 .text_best_accommodations i
 {
-    margin-right: 25px;
+    margin-right: 50px;
     margin-top: 20px;
 }
 
@@ -443,6 +429,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 {
     display: flex;
     margin-bottom: 40px;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 30px;
     border: 1px #F2F2F2 solid;
@@ -486,12 +473,11 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 .text_best_accommodation
 {
     padding-left: 20px;
-    line-height: 30px;
 }
 
 .text_best_accommodation i
 {
-    line-height: 50%;
+    padding-top: 30px;
 }
 
 .star-blue
