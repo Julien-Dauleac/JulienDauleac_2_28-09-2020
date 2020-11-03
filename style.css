@@ -283,14 +283,15 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 #container_accommodations h2
 {
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .show_more
 {
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 50px;
+    margin-left: 60px;
+    font-size: larger;
 }
 
 .accommodations
