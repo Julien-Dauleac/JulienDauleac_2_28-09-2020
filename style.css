@@ -13,9 +13,18 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     list-style: none;
 }
 
+main
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #logo
 {
     width: 100px;
+    padding-left: 20px;
 }
 
 #container_header
@@ -467,9 +476,19 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     padding-left: 20px;
 }
 
+.text_best_accommodation1
+{
+    padding-left: 20px;
+}
+
 .text_best_accommodation i
 {
     padding-top: 30px;
+}
+
+.text_best_accommodation1 i
+{
+    padding-top: 50px;
 }
 
 .star-blue
@@ -505,13 +524,13 @@ a, a:link, a:visited, a:focus, a:hover, a:active
     margin: 20px;
 }
 
-.colonne
+.column
 {
     width: 22%;
     margin-left: 3%;
 }
 
-.colonne:first-child
+.column:first-child
 {
     margin-left: 0;
 }
