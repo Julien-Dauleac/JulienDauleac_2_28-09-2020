@@ -130,7 +130,6 @@ main
 .filters
 {
     display: flex;
-    flex-wrap: wrap;
     margin: 10px;
     font-weight: bold;
     position: relative;
@@ -406,7 +405,6 @@ main
 .text_best_accommodations
 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
@@ -422,6 +420,11 @@ main
 {
     margin-right: 50px;
     margin-top: 20px;
+}
+
+.fa-chart-lines
+{
+    display: none;
 }
 
 .best_accommodations
@@ -701,6 +704,14 @@ main
 
 @media (max-width: 1140px)
 {
+    main
+    {
+        width: auto;
+    }
+    body
+    {
+        font-family: Raleway, sans-serif;
+    }
     .search
     {
         display: flex;
@@ -729,7 +740,6 @@ main
     }
     .holder
     {
-        display: flex;
         border: 2px solid #F2F2F2;
         width: 100%;
         height: 45px;
@@ -745,6 +755,83 @@ main
         border: 50px;
         width: 30px;
         height: 25px;
+    }
+    .text_best_accommodations h2
+    {
+        display: flex;
+        font-size: large;
+
+    }
+    .text_best_accommodations i
+    {
+        font-size: large;
+    }
+    .text_best_accommodations
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+    }
+    #container_best_accommodations
+    {
+        width: auto;
+    }
+    .element_best_accommodation
+    {
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+    .best_accommodations
+    {
+        display: flex;
+        align-items: center;
+    }
+    #container_accommodations
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        background-color: white;
+    }
+    .element_accommodation
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        box-shadow: 5px 5px 5px #F2F2F2;
+    }
+    #container_all_accommodations
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .show_more
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
+        margin-right: 50px;
+    }
+    #container_filters
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .filters
+    {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
     }
 
 }
