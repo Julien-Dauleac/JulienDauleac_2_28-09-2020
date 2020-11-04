@@ -704,20 +704,9 @@ main
 
 @media (max-width: 1140px)
 {
-    main
-    {
-        width: 100%;
-        box-sizing: border-box;
-    }
-    body
-    {
-        font-family: Raleway, sans-serif;
-    }
     .search
     {
-        display: flex;
         align-items: center;
-        justify-content: center;
         border: 50px;
     }
     #button_search
@@ -760,22 +749,17 @@ main
     {
         margin-top: 10px;
     }
-    .text_best_accommodations
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
     #container_best_accommodations
     {
         width: auto;
         margin-right: 0;
+        border-radius: 0;
     }
     .element_best_accommodation
     {
         display: flex;
         align-items: center;
-        width: 50%;
+        width: 90%;
     }
     .best_accommodations
     {
@@ -784,8 +768,6 @@ main
     }
     #container_accommodations
     {
-        display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
         width: auto;
@@ -797,11 +779,9 @@ main
     }
     .element_accommodation
     {
-        display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 40%;
         box-shadow: 5px 5px 5px #F2F2F2;
     }
     #container_all_accommodations
@@ -814,21 +794,16 @@ main
     {
         display: flex;
         align-items: center;
-        font-size: larger;
         margin-right: 70px;
     }
     #container_filters
     {
-        display: flex;
         justify-content: flex-start;
-        align-items: center;
     }
     .filters
     {
-        display: flex;
         align-items: center;
         justify-content: flex-start;
-        position: relative;
         left: 70px;
     }
 
@@ -836,15 +811,6 @@ main
 
 @media (max-width: 900px)
 {
-    main
-    {
-        width: 100%;
-        box-sizing: border-box;
-    }
-    body
-    {
-        font-family: Raleway, sans-serif;
-    }
     .navigation
     {
         padding-right: 0;
@@ -880,14 +846,5 @@ main
 
 @media (max-width: 600px)
 {
-    main
-    {
-        width: 100%;
-        box-sizing: border-box;
-    }
-    body
-    {
-        font-family: Raleway, sans-serif;
-    }
 
 }
