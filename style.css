@@ -124,7 +124,6 @@ main
 {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .filters
@@ -730,16 +729,34 @@ main
     {
         justify-content: flex-start;
     }
-    .filters
+    .filter
     {
-        align-items: center;
-        justify-content: flex-start;
-        left: 70px;
-        margin-top: -20px;
+        margin: 0px;
     }
     .img_accommodation
     {
         width: 100%
+    }
+    .text_activity4
+    {
+        position: relative;
+        bottom: 10px;
+    }
+    .img_activity2
+    {
+        height: 77%;
+    }
+    .img_activity5
+    {
+        height: 67%;
+    }
+    .img_activity6
+    {
+        height: 76%;
+    }
+    .img_activity6
+    {
+        height: 72%;
     }
 
 }
