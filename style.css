@@ -706,7 +706,8 @@ main
 {
     main
     {
-        width: auto;
+        width: 100%;
+        box-sizing: border-box;
     }
     body
     {
@@ -717,7 +718,6 @@ main
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 25%;
         border: 50px;
     }
     #button_search
@@ -756,26 +756,20 @@ main
         width: 30px;
         height: 25px;
     }
-    .text_best_accommodations h2
-    {
-        display: flex;
-        font-size: large;
-
-    }
     .text_best_accommodations i
     {
-        font-size: large;
+        margin-top: 10px;
     }
     .text_best_accommodations
     {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-weight: bold;
     }
     #container_best_accommodations
     {
         width: auto;
+        margin-right: 0;
     }
     .element_best_accommodation
     {
@@ -797,6 +791,10 @@ main
         width: auto;
         background-color: white;
     }
+    #container_accommodations h2
+    {
+        margin-left: 0;
+    }
     .element_accommodation
     {
         display: flex;
@@ -815,15 +813,13 @@ main
     .show_more
     {
         display: flex;
-        justify-content: center;
         align-items: center;
         font-size: larger;
-        margin-right: 50px;
+        margin-right: 70px;
     }
     #container_filters
     {
         display: flex;
-        flex-direction: row;
         justify-content: flex-start;
         align-items: center;
     }
@@ -832,16 +828,57 @@ main
         display: flex;
         align-items: center;
         justify-content: flex-start;
+        position: relative;
+        left: 70px;
     }
 
 }
 
-@media (max-width: 800px)
+@media (max-width: 900px)
 {
+    main
+    {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    body
+    {
+        font-family: Raleway, sans-serif;
+    }
+    .navigation
+    {
+        padding-right: 0;
+    }
+    .search
+    {
 
+    }
+    .filters
+    {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        left: 25px;
+    }
+    #container_accommodations h2
+    {
+        margin-left: 0;
+    }
+    .column_activities
+    {
+        margin-left: 2%;
+    }
+    .column_activities:first-child
+    {
+        margin-left: 20px;
+    }
+    .about
+    {
+        padding: 20px;
+    }
 }
 
-@media (max-width: 320px)
+@media (max-width: 600px)
 {
 
 }
