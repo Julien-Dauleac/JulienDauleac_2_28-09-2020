@@ -693,8 +693,6 @@ main
     }
     .best_accommodations
     {
-        display: flex;
-        align-items: center;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -841,5 +839,50 @@ main
     {
 
     }
-
+    #container_filters
+    {
+        flex-wrap: wrap;
+    }
+    .filters
+    {
+        flex-wrap: wrap;
+    }
+    .best_accommodations
+    {
+        flex-direction: column;
+    }
+    .element_best_accommodation
+    {
+        width: auto;
+    }
+    #container_best_accommodations
+    {
+        width: auto;
+    }
+    .element_accommodation
+    {
+        width: 100%;
+    }
+    .accommodations
+    {
+        width: auto;
+    }
+    .show_more
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    h1
+    {
+        width: 100%;
+    }
+    .text_best_accommodations h2
+    {
+        margin-left: 20px;
+    }
+    .text_best_accommodations i
+    {
+        margin-right: 20px;
+    }
 }
