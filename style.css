@@ -631,7 +631,7 @@ main
     margin-right: 20%;
 }
 
-@media (max-width: 1281px)
+@media (max-width: 1300px)
 {
     .search
     {
@@ -764,77 +764,82 @@ main
 
 }
 
-@media (max-width: 900px)
+@media (max-width: 1055px)
 {
-    .navigation
-    {
-        padding-right: 0;
-    }
-    .search
-    {
-
-    }
     .filters
     {
-        display: flex;
         align-items: center;
         justify-content: flex-start;
         left: 25px;
     }
-    #container_accommodations h2
+
+    .activities
     {
-        margin-left: 0;
+        flex-wrap: nowrap;
     }
-    .column_activities
+    .filter a
     {
-        margin-left: 2%;
+        padding-left: 44px;
     }
-    .column_activities:first-child
+    .filters
     {
-        margin-left: 20px;
-    }
-    .about
-    {
-        padding: 20px;
+        left: -37px;
     }
 }
 
 @media (max-width: 900px)
 {
-    .navigation
+    .about
     {
-        padding-right: 0;
+        margin-right: 10%;
     }
-    .search
+    .pets a
     {
-
+        width: 142px;
     }
     .filters
     {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        left: 25px;
+        left: -48px;
     }
-    #container_accommodations h2
+    .filter
     {
-        margin-left: 0;
-    }
-    .column_activities
-    {
-        margin-left: 2%;
-    }
-    .column_activities:first-child
-    {
-        margin-left: 20px;
-    }
-    .about
-    {
-        padding: 20px;
+        margin: -5px;
     }
 }
 
-@media (max-width: 700px)
+@media (max-width: 755px)
 {
+    .accommodations_nav a:link
+    {
+        border-bottom: 2px #0065FC solid;
+        border-top: 0;
+        padding: 20px;
+    }
+    .activity a:link
+    {
+        border-bottom: 2px #F2F2F2 solid;
+        border-top: 0;
+        padding: 20px;
+    }
+    .register li
+    {
+        padding: 0;
+    }
+    .navigation
+    {
+
+    }
+    .register
+    {
+
+    }
+    .accommodations_nav
+    {
+        margin-top: 50px;
+    }
+    .activity
+    {
+        padding-top: 50px;
+    }
 
 }
