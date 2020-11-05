@@ -217,10 +217,8 @@ main
 #container_text
 {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    position: relative;
-    bottom: 15px;
+    margin-bottom: 15px;
 }
 
 #container_text p
@@ -896,6 +894,7 @@ main
     }
     #container_text i
     {
+        width: 50px;
     }
     .activities
     {
