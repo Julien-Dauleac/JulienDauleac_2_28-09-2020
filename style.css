@@ -846,6 +846,15 @@ main
     .filters
     {
         flex-wrap: wrap;
+        margin: 0;
+        left: 0;
+        position: static;
+    }
+    .filter
+    {
+        margin: 0;
+        padding: 0;
+        position: static;
     }
     .best_accommodations
     {
@@ -853,7 +862,7 @@ main
     }
     .element_best_accommodation
     {
-        width: auto;
+        width: 80%;
     }
     #container_best_accommodations
     {
@@ -873,10 +882,6 @@ main
         margin-bottom: 0;
         margin-left: 0;
     }
-    h1
-    {
-        width: 100%;
-    }
     .text_best_accommodations h2
     {
         margin-left: 20px;
@@ -884,5 +889,63 @@ main
     .text_best_accommodations i
     {
         margin-right: 20px;
+    }
+    #container_text p
+    {
+        margin-left: 40px;
+    }
+    #container_text i
+    {
+        position: relative;
+        top: 60px;
+    }
+    .activities
+    {
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .element_activity1
+    {
+        width: 100%;
+        margin: 10px;
+    }
+    .element_activity2
+    {
+        width: 400%;
+        margin: 10px;
+    }
+    .element_activity3
+    {
+        width: 400%;
+        margin: 10px;
+    }
+    .element_activity4
+    {
+        width: 100%;
+        margin: 10px;
+    }
+    .element_activity5
+    {
+        width: 400%;
+        margin: 10px;
+    }
+    .element_activity6
+    {
+        width: 400%;
+        margin: 10px;
+    }
+    #container_footer
+    {
+        flex-direction: column;
+    }
+    .about
+    {
+        margin-top: 20px;
+    }
+    .footer
+    {
+        padding: 0;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
 }
