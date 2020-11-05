@@ -132,8 +132,6 @@ main
     display: flex;
     margin: 10px;
     font-weight: bold;
-    position: relative;
-    right: 40px;
 }
 
 .filters a
@@ -846,13 +844,11 @@ main
         flex-wrap: wrap;
         margin: 0;
         left: 0;
-        position: static;
     }
     .filter
     {
         margin: 0;
         padding: 0;
-        position: static;
     }
     .best_accommodations
     {
@@ -894,7 +890,7 @@ main
     }
     #container_text i
     {
-        width: 50px;
+        width: 55px;
     }
     .activities
     {
