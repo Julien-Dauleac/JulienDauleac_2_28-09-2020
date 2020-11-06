@@ -849,6 +849,7 @@ main
     {
         margin: 0;
         padding: 0;
+        position: static;
     }
     .best_accommodations
     {
@@ -890,11 +891,12 @@ main
     }
     #container_text p
     {
-        margin-left: 40px;
     }
     #container_text i
     {
-        width: 55px;
+        margin-left: 30px;
+        width: 45px;
+        height: 30px;
     }
     .activities
     {
@@ -981,8 +983,8 @@ main
         display: flex;
         flex-direction: column;
     }
-    #container_footer
+    .family
     {
-        margin-top: 200px;
+        margin-right: 10px;
     }
 }
