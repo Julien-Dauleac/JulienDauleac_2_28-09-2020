@@ -49,6 +49,11 @@ main
     padding: 20px;
 }
 
+.nav_2
+{
+    display: flex;
+}
+
 .accommodations_nav a:link
 {
     border-top: 2px #0065FC solid;
@@ -822,19 +827,25 @@ main
     }
     .navigation
     {
-
+        flex-wrap: wrap-reverse;
+    }
+    .navigation li
+    {
+        padding: 0;
     }
     .register
     {
+        display: flex;
+        margin-left: 250px;
 
     }
     .accommodations_nav
     {
-
+        margin-right: 30px;
     }
     .activity
     {
-
+        margin-left: 70px;
     }
     #container_filters
     {
@@ -844,13 +855,11 @@ main
     {
         flex-wrap: wrap;
         margin: 0;
-        left: 0;
     }
     .filter
     {
         margin: 0;
         padding: 0;
-        position: static;
     }
     .best_accommodations
     {
