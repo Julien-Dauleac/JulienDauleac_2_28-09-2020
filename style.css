@@ -731,10 +731,6 @@ main
     {
         width: 142px;
     }
-    .filters
-    {
-        left: -48px;
-    }
     .filter
     {
         margin: -5px;
@@ -758,6 +754,14 @@ main
     .register li
     {
         padding: 0;
+    }
+    .navigation1
+    {
+        order: 2;
+    }
+    .navigation2
+    {
+        order: 3;
     }
     .navigation
     {
