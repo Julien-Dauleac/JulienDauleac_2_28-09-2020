@@ -858,8 +858,11 @@ main
     }
     .filter
     {
-        margin: 0;
-        padding: 0;
+        margin-left: 100px;
+        padding: 10px;
+    }
+    .economic
+    {
     }
     .best_accommodations
     {
