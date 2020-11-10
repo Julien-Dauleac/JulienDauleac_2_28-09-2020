@@ -719,10 +719,6 @@ main
     {
         flex-wrap: nowrap;
     }
-}
-
-@media (max-width: 900px)
-{
     .about
     {
         margin-right: 10%;
@@ -737,7 +733,7 @@ main
     }
 }
 
-@media (max-width: 755px)
+@media (max-width: 820px)
 {
     .accommodations_nav a:link
     {
