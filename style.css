@@ -782,7 +782,15 @@ main
     {
         width: 100%
     }
+    .img_accommodations
+    {
+        width: 100%;
+    }
     .img_activity1
+    {
+        width: 88%;
+    }
+    .img_activities1
     {
         width: 88%;
     }
@@ -790,28 +798,28 @@ main
     {
         height: 77%;
     }
+    .img_activities2
     .img_activity3
     {
         height: 67%;
     }
+    .img_activities3
     .img_activity4
     {
         height: 88%;
     }
+    .img_activities4
     .img_activity5
     {
         height: 67%;
     }
-    .img_activity6
-    {
-        height: 76%;
-    }
+    .img_activities5
     .img_activity6
     {
         height: 72%;
     }
-    .activities
-    {
+    .img_activities6
+    .activities   {
         flex-wrap: nowrap;
     }
     .about
