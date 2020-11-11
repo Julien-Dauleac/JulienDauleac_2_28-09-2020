@@ -784,6 +784,7 @@ main
     .filter
     {
         padding: 0;
+        margin: 4px;
     }
     .best_accommodations
     {
