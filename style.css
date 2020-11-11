@@ -609,6 +609,10 @@ main
         align-items: center;
         width: 30%;
     }
+    .img_best_accommodation
+    {
+        height: 200px;
+    }
     .best_accommodations
     {
         flex-direction: row;
@@ -711,7 +715,7 @@ main
     }
 }
 
-@media (max-width: 860px)
+@media (max-width: 900px)
 {
     .search
     {
