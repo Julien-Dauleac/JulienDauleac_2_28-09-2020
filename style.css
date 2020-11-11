@@ -431,7 +431,7 @@ main
 
 .img_best_accommodations1
 {
-    width: 150px;
+    width: 100%;
     background-image: url(images/accommodations/accommodation_6_small.jpg);
 }
 
@@ -443,7 +443,7 @@ main
 
 .img_best_accommodations2
 {
-    width: 185px;
+    width: 100%;
     background-image: url(images/accommodations/accommodation_1_small.jpg);
 }
 
@@ -455,7 +455,7 @@ main
 
 .img_best_accommodations3
 {
-    width: 150px;
+    width: 100%;
     background-image: url(images/accommodations/accommodation_3_small.jpg);
 }
 
@@ -600,7 +600,7 @@ main
 
 .img_activities1
 {
-    height: 90%;
+    height: 100%;
     background-image: url(images/activities/activity_6_small.jpg);
 }
 
@@ -612,7 +612,7 @@ main
 
 .img_activities2
 {
-    height: 80%;
+    height: 100%;
     background-image: url(images/activities/activity_1_small.jpg);
 }
 
@@ -624,7 +624,7 @@ main
 
 .img_activities3
 {
-    height: 70%;
+    height: 100%;
     background-image: url(images/activities/activity_2_small.jpg);
 }
 
@@ -636,7 +636,7 @@ main
 
 .img_activities4
 {
-    height: 90%;
+    height: 100%;
     background-image: url(images/activities/activity_5_small.jpg);
 }
 
@@ -648,7 +648,7 @@ main
 
 .img_activities5
 {
-    height: 75%;
+    height: 100%;
     background-image: url(images/activities/activity_3_small.jpg);
 }
 
@@ -660,7 +660,7 @@ main
 
 .img_activities6
 {
-    height: 75%;
+    height: 100%;
     background-image: url(images/activities/activity_4_small.jpg);
 }
 
