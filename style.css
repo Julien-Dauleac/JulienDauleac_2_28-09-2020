@@ -1125,4 +1125,12 @@ main
     {
         padding: 0;
     }
+    .img_best_accommodations2
+    {
+        width: 111%;
+    }
+    #container_text i
+    {
+        width: 45px;
+    }
 }
