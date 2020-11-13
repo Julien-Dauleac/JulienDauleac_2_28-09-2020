@@ -27,14 +27,6 @@ main
     padding-left: 20px;
 }
 
-#container_header
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 .navigation
 {
     display: flex;
@@ -43,11 +35,23 @@ main
     list-style: none;
     padding-right: 20px;
 }
-.header
+
+.navigation1
 {
-    display: flex;
+    margin-left: 43%;
 }
 
+#container_header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navigation2
+{
+    margin-right: 10%;
+}
 .navigation li
 {
     padding: 20px;
@@ -1094,13 +1098,17 @@ main
     {
         border-bottom: 2px #0065FC solid;
         border-top: 0;
-        padding: 20px;
+        padding-right: 20px;
+        padding-left: 30px;
+        padding-bottom: 10px;
     }
     .activity a:link
     {
         border-bottom: 2px #F2F2F2 solid;
         border-top: 0;
-        padding: 20px;
+        padding-right: 70px;
+        padding-left: 50px;
+        padding-bottom: 10px;
     }
     .register li
     {
@@ -1109,10 +1117,15 @@ main
     .navigation1
     {
         order: 1;
+        margin-left: 14px;
+    }
+    .activity
+    {
+        padding-left: 25px;
     }
     .navigation2
     {
-        order: 2;
+        order: 0;
     }
     .register a:link
     {
