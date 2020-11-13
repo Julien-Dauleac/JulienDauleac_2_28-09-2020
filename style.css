@@ -1114,6 +1114,10 @@ main
     {
         order: 2;
     }
+    .register a:link
+    {
+        padding: 0;
+    }
     .navigation li
     {
         padding: 0;
