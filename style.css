@@ -39,20 +39,11 @@ main
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
     list-style: none;
     padding-right: 20px;
 }
 
-.navigation1
-{
-    margin-left: 43%;
-    padding-left: 3%;
-}
-.activity
-{
-    padding-right: 10px;
-}
 .navigation li
 {
     padding: 20px;
@@ -1099,30 +1090,17 @@ main
     {
         border-bottom: 2px #0065FC solid;
         border-top: 0;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-bottom: 10px;
+        padding: 20px;
     }
     .activity a:link
     {
         border-bottom: 2px #F2F2F2 solid;
         border-top: 0;
-        padding-right: 50px;
-        padding-left: 25px;
-        padding-bottom: 10px;
+        padding: 20px;
     }
     .register li
     {
         padding: 0;
-    }
-    .navigation1
-    {
-        order: 1;
-        margin-left: 14px;
-    }
-    .navigation2
-    {
-        order: 0;
     }
     .register a:link
     {
