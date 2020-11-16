@@ -715,7 +715,7 @@ main
     margin-right: 20%;
 }
 
-@media (max-width: 1220px)
+@media (max-width: 992px)
 {
     .text_best_accommodations i
     {
@@ -866,7 +866,7 @@ main
     }
 }
 
-@media (max-width: 900px)
+@media (max-width: 768px)
 {
     .search
     {
@@ -886,8 +886,6 @@ main
         border-radius: 15px 15px 15px 15px;
         width: 50px;
         height: 45px;
-        right: 15px;
-        position: relative;
     }
     .submit
     {
@@ -904,10 +902,12 @@ main
     }
     .map
     {
+        border-top: 2px white solid;
+        border-bottom: 2px white solid;
+        border-left: 2px white solid;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 50px;
         width: 30px;
         height: 25px;
     }
@@ -1098,8 +1098,23 @@ main
     }
 }
 
-@media (max-width: 660px)
+@media (max-width: 576px)
 {
+    #logo
+    {
+        width: 90px;
+        padding-left: 10px;
+    }
+    main
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #container_filters h2
+    {
+        font-size: 100%;
+        padding-top: 10px;
+    }
     .accommodations_nav a:link
     {
         border-bottom: 2px #0065FC solid;
@@ -1124,12 +1139,65 @@ main
     {
         padding: 0;
     }
+    .search
+    {
+        padding-left: 10px;
+    }
     .img_best_accommodations2
     {
         width: 111%;
     }
     #container_text i
     {
-        width: 45px;
+        width: 40px;
+        margin-left: 2px;
+    }
+    #container_text p
+    {
+        font-size: 83%;
+    }
+    #container_accommodations h2
+    {
+        font-size: 130%;
+        padding-right: 30px;
+    }
+    .text_best_accommodations h2
+    {
+        font-size: 130%;
+    }
+    .text_best_accommodations i
+    {
+        font-size: 130%;
+    }
+    #container_activities
+    {
+        padding-left: 10px;
+    }
+    #container_footer
+    {
+        width: 105%;
+        font-size: 90%;
+    }
+    .activities h3
+    {
+        font-size: 95%;
+    }
+    #container_all_accommodations
+    {
+        flex-wrap: nowrap;
+    }
+    .text_accommodation
+    {
+        line-height: 35%;
+        width: 100%;
+    }
+    .filters
+    {
+        font-size: 95%;
+    }
+    .title
+    {
+        font-size: 60%;
+        padding-left: 10px;
     }
 }
