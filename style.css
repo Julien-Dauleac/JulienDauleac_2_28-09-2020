@@ -49,6 +49,13 @@ main
     padding: 20px;
 }
 
+.accommodations_nav a:visited
+{
+    border-top: 2px #0065FC solid;
+    color: #0065FC;
+    padding: 40px;
+}
+
 .accommodations_nav a:link
 {
     border-top: 2px #0065FC solid;
@@ -60,6 +67,13 @@ main
 {
     padding: 30px;
 
+}
+
+.register a:visited
+{
+    font-weight: bold;
+    color: #0065FC;
+    padding: 30px;
 }
 
 .register a:link
