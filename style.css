@@ -21,10 +21,9 @@ main
     padding-right: 20px;
 }
 
-#container_header
+#container_header nav
 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -42,6 +41,19 @@ main
     align-items: center;
     list-style: none;
     padding-right: 20px;
+}
+
+.navigation1
+{
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.navigation2
+{
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .navigation li
@@ -87,8 +99,7 @@ main
 {
     display: flex;
     justify-content: flex-start;
-    width: 30%;
-    min-width: 30%;
+    width: fit-content;
 }
 
 .search i
@@ -108,11 +119,6 @@ main
 {
     font-weight: bold;
     color: black;
-}
-
-.holder
-{
-    border: 2px solid #F2F2F2;
 }
 
 .submit
@@ -415,12 +421,13 @@ main
     border-radius: 30px;
     border: 1px #F2F2F2 solid;
     background-color: white;
-    width: 75%;
+    width: 80%;
+    height: 150px;
 }
 
 .img_best_accommodation
 {
-    height: 185px;
+    height: 150px;
     border-radius: 15px 0 0 15px;
     background-size: cover;
     background-position: center;
@@ -444,7 +451,7 @@ main
 
 .img_best_accommodation1
 {
-    width: 150px;
+    width: 130px;
     background-image: url(images/accommodations/accommodation_6_small.jpg);
 }
 
@@ -468,7 +475,7 @@ main
 
 .img_best_accommodation3
 {
-    width: 150px;
+    width: 130px;
     background-image: url(images/accommodations/accommodation_3_small.jpg);
 }
 
@@ -484,12 +491,12 @@ main
 
 .text_best_accommodation i
 {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .text_best_accommodation1 i
 {
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .star-blue
@@ -550,7 +557,7 @@ main
     border-radius: 30px;
     box-shadow: 5px 5px 5px #F2F2F2;
     height: 300px;
-    margin: 30px;
+    margin-top: 30px;
 }
 
 .element_activity3
@@ -637,7 +644,7 @@ main
 
 .img_activity3
 {
-    height: 65%;
+    height: 67%;
     background-image: url(images/activities/activity_2_small.jpg);
 }
 
@@ -938,10 +945,9 @@ main
 {
     .search
     {
-        align-items: center;
-        border: 50px;
-        width: 20%;
-        min-width: 200px;
+        border: 2px solid #F2F2F2;
+        border-radius: 15px;
+        border-right: none;
     }
     #button_search
     {
@@ -1173,6 +1179,14 @@ main
     .accommodations_nav a:link
     {
         padding: 20px;
+    }
+    .navigation1
+    {
+        order: 3;
+    }
+    .navigation2
+    {
+        order: 2;
     }
 }
 
