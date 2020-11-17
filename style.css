@@ -237,8 +237,6 @@ main
 
 #container_accommodations
 {
-    display: flex;
-    flex-wrap: wrap;
     border: 1px white solid;
     border-radius: 30px;
     background-color: #F2F2F2;
@@ -372,8 +370,7 @@ main
     border: 1px white solid;
     border-radius: 30px;
     background-color: #F2F2F2;
-    width: 30%;
-    margin-right: 50px;
+    width: 32%;
 }
 
 .text_best_accommodations
@@ -676,7 +673,7 @@ main
 
 .img_activity6
 {
-        height: 73%;
+    height: 73%;
     background-image: url(images/activities/activity_4_small.jpg);
 }
 
@@ -713,6 +710,77 @@ main
 .our_accommodations
 {
     margin-right: 20%;
+}
+
+@media (max-width: 1200px)
+{
+    .img_activity2
+    {
+        height: 75%;
+    }
+    .activities
+    {
+        flex-wrap: nowrap;
+    }
+    #container_all_accommodations
+    {
+        flex-wrap: nowrap;
+    }
+    .img_activity5
+    {
+        height: 70%;
+    }
+    .element_best_accommodation
+    {
+        margin-bottom: 20px;
+        margin-top: 0;
+        width: 90%;
+    }
+    main
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .img_best_accommodation2
+    {
+        width: 220px;
+    }
+    .text_best_accommodation
+    {
+        line-height: 26px;
+    }
+    #container_accommodations
+    {
+        width: 60%;
+    }
+    #container_best_accommodations
+    {
+        width: 37%;
+    }
+    .element_accommodation
+    {
+        width: 29%;
+    }
+    .text_accommodation
+    {
+        line-height: 110%;
+    }
+    #container_accommodations h2
+    {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .text_best_accommodations i
+    {
+        margin-right: 15px;
+        margin-top: 0;
+        font-size: 150%;
+    }
+    .text_best_accommodations h2
+    {
+        margin-left: 15px;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 992px)
@@ -947,7 +1015,7 @@ main
     .element_best_accommodation
     {
         width: 80%;
-        margin-bottom: 0;
+        margin-bottom: 20px;
     }
     #container_best_accommodations
     {
@@ -960,7 +1028,8 @@ main
     }
     .accommodations
     {
-        width: auto;
+        width: 50%;
+        margin-left: 180px;
     }
     .show_more
     {
@@ -983,7 +1052,8 @@ main
     .activities
     {
         flex-wrap: wrap;
-        width: auto;
+        width: 50%;
+        margin-left: 175px;
     }
     .element_activity1
     {
@@ -1023,7 +1093,6 @@ main
     }
     #container_footer
     {
-        flex-direction: column;
     }
     .about
     {
@@ -1032,8 +1101,17 @@ main
     .footer
     {
         padding: 0;
-        margin-left: 30px;
+        margin-left: 55px;
         margin-bottom: 30px;
+        margin-right: 1px;
+        font-size: 95%;
+    }
+    .img_best_accommodation2
+    {
+        width: 180px;
+    }
+    .assistance
+    {
     }
     .img_activity1
     {
@@ -1180,7 +1258,7 @@ main
     }
     .activities h3
     {
-        font-size: 95%;
+        font-size: 100%;
     }
     #container_all_accommodations
     {
@@ -1190,10 +1268,11 @@ main
     {
         line-height: 35%;
         width: 100%;
+        font-size: 95%;
     }
     .filters
     {
-        font-size: 95%;
+        font-size: 90%;
     }
     .title
     {
