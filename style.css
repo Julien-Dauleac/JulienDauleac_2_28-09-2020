@@ -235,12 +235,6 @@ main
     flex-wrap: wrap;
 }
 
-#container_all_accommodations a
-{
-    justify-content: flex-start;
-    font-weight: bold;
-}
-
 #container_accommodations
 {
     border: 1px white solid;
@@ -261,24 +255,21 @@ main
     margin-bottom: 50px;
     margin-left: 60px;
     font-size: larger;
+    font-weight: bold;
 }
 
 .accommodations
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .accommodations figure
 {
     width: 30%;
-    text-align: start;
-    text-indent: 0;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    margin-bottom: 50px;
     border-radius: 30px;
     border: 1px #F2F2F2 solid;
     background-color: white;
@@ -342,13 +333,11 @@ main
 .best_accommodations figure
 {
     display: flex;
-    margin-bottom: 40px;
-    margin-top: 10px;
     padding: 10px;
     border-radius: 30px;
     border: 1px #F2F2F2 solid;
     background-color: white;
-    width: 30%;
+    width: 80%;
 }
 
 .best_accommodations img
@@ -607,66 +596,6 @@ main
     {
         margin: 0;
     }
-    .element_activity4
-    {
-        margin: 25px;
-    }
-    .img_accommodation
-    {
-        width: 100%
-    }
-    .img_accommodations
-    {
-        width: 100%;
-    }
-    .img_activity1
-    {
-        width: 100%;
-    }
-    .img_activities1
-    {
-        width: 100%;
-    }
-    .img_activity2
-    {
-        height: 77%;
-    }
-    .img_activities2
-    {
-        height: 100%;
-    }
-    .img_activity3
-    {
-        height: 67%;
-    }
-    .img_activities3
-    {
-        height: 100%;
-    }
-    .img_activity4
-    {
-        height: 88%;
-    }
-    .img_activities4
-    {
-        height: 100%;
-    }
-    .img_activity5
-    {
-        height: 67%;
-    }
-    .img_activities5
-    {
-        height: 100%;
-    }
-    .img_activity6
-    {
-        height: 72%;
-    }
-    .img_activities6
-    {
-        height: 100%;
-    }
     .activities
     {
         flex-wrap: nowrap;
@@ -764,11 +693,6 @@ main
         justify-content: space-around;
         align-content: center;
     }
-    .element_best_accommodation
-    {
-        width: 80%;
-        margin-bottom: 20px;
-    }
     #container_best_accommodations
     {
         width: auto;
@@ -807,42 +731,6 @@ main
         width: 60%;
         margin-left: 20%;
     }
-    .element_activity1
-    {
-        width: 100%;
-        height: 200px;
-        margin: 10px 0;
-    }
-    .element_activity2
-    {
-        width: 100%;
-        height: 200px;
-        margin: 20px 0;
-    }
-    .element_activity3
-    {
-        width: 100%;
-        height: 200px;
-        margin: 20px 0;
-    }
-    .element_activity4
-    {
-        width: 100%;
-        height: 200px;
-        margin: 10px 0;
-    }
-    .element_activity5
-    {
-        width: 100%;
-        height: 200px;
-        margin: 20px 0;
-    }
-    .element_activity6
-    {
-        width: 100%;
-        height: 200px;
-        margin: 20px 0;
-    }
     #container_footer
     {
     }
@@ -861,59 +749,6 @@ main
     .img_best_accommodation2
     {
         width: 180px;
-    }
-    .assistance
-    {
-    }
-    .img_activity1
-    {
-        width: 100%;
-        height: 75%;
-    }
-    .img_activities1
-    {
-        width: 100%;
-        height: 100%;
-    }
-    .img_activity2
-    {
-        height: 77%;
-    }
-    .img_activities2
-    {
-        height: 100%;
-    }
-    .img_activity3
-    {
-        height: 75%;
-    }
-    .img_activities3
-    {
-        height: 100%;
-    }
-    .img_activity4
-    {
-        height: 75%;
-    }
-    .img_activities4
-    {
-        height: 100%;
-    }
-    .img_activity5
-    {
-        height: 75%;
-    }
-    .img_activities5
-    {
-        height: 100%;
-    }
-    .img_activity6
-    {
-        height: 75%;
-    }
-    .img_activities6
-    {
-        height: 100%;
     }
     .column_activities
     {
@@ -998,10 +833,6 @@ main
     {
         border: none;
         padding-left: 10px;
-    }
-    .img_best_accommodations2
-    {
-        width: 111%;
     }
     #container_text i
     {
