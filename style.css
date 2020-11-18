@@ -264,6 +264,14 @@ main
     flex-wrap: wrap;
 }
 
+.element_accommodation
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
 .accommodations figure
 {
     width: 30%;
