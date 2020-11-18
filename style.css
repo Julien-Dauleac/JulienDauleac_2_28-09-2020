@@ -267,7 +267,52 @@ main
 
 .element_accommodation
 {
-    width: 26%;
+    width: 30%;
+}
+
+.element_accommodation1 img
+{
+    height: 90%;
+}
+
+.element_accommodation2 img
+{
+    height: 90%;
+}
+
+.element_accommodation3 img
+{
+    height: 90%;
+}
+
+.element_accommodation4 img
+{
+    height: 100%
+}
+
+.element_accommodation4 figure
+{
+    height: 46%;
+}
+
+.element_accommodation4 a
+{
+    height: 61%;
+}
+
+.element_accommodation6 figure
+{
+    height: 46%;
+}
+
+.element_accommodation6 img
+{
+    height: 100%
+}
+
+.element_accommodation6 a
+{
+    height: 58%;
 }
 
 .accommodations figure
@@ -280,6 +325,7 @@ main
     border: 1px #F2F2F2 solid;
     background-color: white;
     margin-left: 0;
+    margin-right: 0;
 }
 
 .accommodations img
@@ -335,6 +381,38 @@ main
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+}
+
+.element_best_accommodation1 figure
+{
+    height: 85%;
+}
+
+.element_best_accommodation1 img
+{
+    width: 86%;
+    height: 100%;
+}
+
+.element_best_accommodation2 figure
+{
+    height: 85%;
+}
+
+.element_best_accommodation2 img
+{
+    height: 95%;
+}
+
+.element_best_accommodation3 figure
+{
+    height: 50%;
+}
+
+.element_best_accommodation3 img
+{
+    width: 88%;
+    height: 96%;
 }
 
 .best_accommodations figure
@@ -421,6 +499,16 @@ main
 .activities figcaption
 {
 
+}
+
+.element_activity1 img
+{
+    height: 90%;
+}
+
+.element_activity4 img
+{
+    height: 90%;
 }
 
 #container_footer
