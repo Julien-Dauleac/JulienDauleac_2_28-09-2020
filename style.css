@@ -262,25 +262,24 @@ main
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .element_accommodation
 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+    width: 26%;
 }
 
 .accommodations figure
 {
-    width: 30%;
+    width: 87%;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 30px;
     border: 1px #F2F2F2 solid;
     background-color: white;
+    margin-left: 0;
 }
 
 .accommodations img
