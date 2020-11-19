@@ -369,23 +369,32 @@ main
 
 /* ------ activities container ------*/
 
-#activities_container
-{
-}
-
 #activities_container h2
 {
     margin-top: 50px;
 }
 
-#activities
+#activities_div
 {
     display: flex;
 }
 
-#activities h3
+#activities_div h3
 {
     margin: 20px;
+}
+
+#activities_div figure
+{
+    border-radius: 30px;
+    height: 50%;
+    margin-top: 30px;
+    box-shadow: 10px 10px 10px #F2F2F2;
+}
+
+#activities_div figcaption
+{
+
 }
 
 .column_activities
@@ -400,51 +409,55 @@ main
     margin-left: 0;
 }
 
-#activities figure
-{
-    border-radius: 30px;
-    box-shadow: 10px 10px 10px #F2F2F2;
-    height: 50%;
-    margin-top: 30px;
-}
-
-#activities img
-{
-    width: 100%;
-    border-radius: 30px 30px 0 0;
-
-}
-
-#activities figcaption
-{
-
-}
-
 .img_activity
 {
     display: flex;
-    width: 100%;
-    height:100%;
-    max-width:100%;
-    max-height:100%;
     object-fit: cover;
-    border-radius: 15px 0 0 15px;
-    margin: auto;
+    border-radius: 15px 15px 0 0;
 }
 
-.img_activity_link
+.img_activity1_link
 {
     height:150px;
 }
 
-.element_activity1 img
+.img_activity2_link
 {
-    height: 90%;
+    height:150px;
 }
 
-.element_activity4 img
+.img_activity3_link
 {
-    height: 90%;
+    height:150px;
+}
+
+.img_activity4_link
+{
+    height:150px;
+}
+
+.img_activity1
+{
+    width: 100%;
+    height:100%;
+}
+
+.img_activity2
+{
+    width: 100%;
+    height:100%;
+}
+
+.img_activity3
+{
+    width: 100%;
+    height:100%;
+}
+
+.img_activity4
+{
+    width: 100%;
+    height:100%;
 }
 
 /* ------ footer container ------*/
