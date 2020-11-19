@@ -15,7 +15,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 main
 {
-    width: 100%;
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
@@ -92,32 +91,33 @@ main
     background-color: #F2F2F2;
     border-radius: 10px 0 0 10px;
 }
-.search
+
+#search
 {
     display: flex;
-    width: fit-content;
-	border: none;
 }
-.search i
+
+#search i
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 50px;
 }
+
 #button_search
 {
     display: none;
 }
+
 .holder
 {
 	border: 1px solid #F2F2F2;
 }
+
 ::placeholder
 {
     font-weight: bold;
     color: black;
 }
+
 .submit
 {
     background-color: #0065FC;
@@ -138,7 +138,6 @@ main
 #filters_nav
 {
     display: flex;
-    align-items: center;
     margin: 10px;
     font-weight: bold;
 }
@@ -152,9 +151,6 @@ main
 
 .filter i
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 30px 30px 30px 30px;
@@ -187,23 +183,16 @@ main
 
 #accommodation_count_container p
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 10px;
 }
 
 #accommodation_count_container i
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .fa-info
-{
-    display: flex;
-    flex-wrap: wrap;
+{;
     justify-content: center;
     align-items: center;
     border: 2px #F2F2F2 solid;
@@ -243,7 +232,6 @@ main
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-	flex-direction: row;
 }
 
 .accommodation_article
@@ -340,7 +328,6 @@ main
 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -395,8 +382,6 @@ main
 
 #activities_container
 {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #activities_container h2
@@ -407,8 +392,6 @@ main
 #activities
 {
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
 }
 
 #activities h3
@@ -480,8 +463,6 @@ main
 #footer_container
 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
     background-color: #F2F2F2;
     height: 25%;
     margin-top: 50px;
@@ -697,7 +678,7 @@ main
 	{
 		border: none;
 	}
-	.search
+	#search
 	{
 		border: 1px solid #F2F2F2;
 		border-radius: 15px 15px 15px 15px;
@@ -751,7 +732,7 @@ main
         width: 100%;
         margin-bottom: 20px;
     }
-    #accomodations_div
+    #accommodations_div
     {
         width: 50%;
         margin-left: 180px;
@@ -768,7 +749,7 @@ main
     {
         margin-right: 20px;
     }
-    #accomodation_count_container i
+    #accommodation_count_container i
     {
         margin-left: 30px;
         width: 30px;
@@ -815,7 +796,6 @@ main
         padding-left: 0;
         padding-right: 0;
     }
-	
 	/* ------ nav bar ------ */
     #header_nav_logo
     {
@@ -831,7 +811,6 @@ main
 		order: 2;
 		flex-wrap: nowrap;
 		width: 100%;
-		margin-left: 0;
 		padding: 0;
 		margin: 0 0 20px 0;
     }
@@ -857,7 +836,6 @@ main
 		margin-left: auto;
 		padding: 20px;
     }
-	
     .holder
     {
         padding-left: 10px;
@@ -868,18 +846,17 @@ main
         font-size: 100%;
         padding-top: 10px;
     }
-	
-	/* ------ accomodations ------ */
-    #accomodation_count_container i
+	/* ------ accommodations ------ */
+    #accommodation_count_container i
     {
         width: 40px;
         margin-left: 2px;
     }
-    #accomodation_count_container p
+    #accommodation_count_container p
     {
         font-size: 83%;
     }
-    #accommodations_conainer h2
+    #accommodations_container h2
     {
         font-size: 130%;
         padding-right: 30px;
@@ -931,7 +908,7 @@ main
         padding-left: 10px;
 		margin-top: 0;
     }
-    #accomodations_div
+    #accommodations_div
     {
         width: auto;
         margin-left: 0;
