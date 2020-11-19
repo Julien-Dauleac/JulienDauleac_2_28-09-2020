@@ -583,7 +583,7 @@ main
     {
         line-height: 26px;
     }
-    #accommodations_conainer
+    #accommodations_container
     {
         width: 60%;
     }
@@ -599,7 +599,7 @@ main
     {
         line-height: 110%;
     }
-    #accommodations_conainer h2
+    #accommodations_container h2
     {
         margin-top: 30px;
         margin-left: 15px;
@@ -649,14 +649,14 @@ main
         justify-content: space-between;
         align-items: normal;
     }
-    #accommodations_conainer
+    #accommodations_container
     {
         flex-direction: column;
         align-items: center;
         width: auto;
         background-color: white;
     }
-    #accommodations_conainer h2
+    #accommodations_container h2
     {
         margin-left: 0;
     }
@@ -813,9 +813,6 @@ main
         flex-wrap: wrap;
         width: 60%;
         margin-left: 20%;
-    }
-    #container_footer
-    {
     }
     .about
     {
