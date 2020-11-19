@@ -401,7 +401,7 @@ main
 
 #activities_div h3
 {
-    margin: 20px;
+    margin: 20px 0 30px 20px;
 }
 
 #activities_div figure
@@ -484,7 +484,7 @@ main
 
 .img_activity1
 {
-    height: 90%;
+    height: 88%;
 }
 
 .img_activity2
@@ -496,7 +496,7 @@ main
 .img_activity3
 {
     object-position: 0 20%;
-    height:75%;
+    height:67%;
 }
 
 .img_activity4
@@ -508,7 +508,7 @@ main
 .img_activity5
 {
     object-position: 0 0;
-    height:75%;
+    height:74%;
 }
 
 /* ------ footer container ------*/
