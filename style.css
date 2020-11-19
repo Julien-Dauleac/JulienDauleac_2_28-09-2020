@@ -416,20 +416,47 @@ main
     border-radius: 15px;
     box-shadow: 10px 10px 10px #F2F2F2;
     margin: 0;
+}
+
+.element_activity1 figure
+{
     height:100%;
     width: 90%;
 }
+
+.element_activity2 figure
+{
+    height:100%;
+    width: 90%;
+}
+
+.element_activity3 figure
+{
+    height:100%;
+    width: 90%;
+}
+
+.element_activity4 figure
+{
+    height:100%;
+    width: 90%;
+}
+
+.element_activity5 figure
+{
+    height:100%;
+    width: 90%;
+}
+
+.element_activity6 figure
+{
+    height:100%;
+    width: 90%;
+}
+
 .column_activities
 {
     width: 23%;
-    margin-left: 2%;
-    margin-right: 1%;
-    height:100%;
-}
-
-.column_activities:first-child
-{
-    margin-left: 0;
 }
 
 .img_activity
@@ -459,11 +486,17 @@ main
 
 .img_activity4
 {
+    object-position: 0 20%;
+    height:67%;
+}
+
+.img_activity5
+{
     object-position: 0 0;
     height:75%;
 }
 
-.img_activity5
+.img_activity6
 {
     object-position: 0 0;
     height:74%;
