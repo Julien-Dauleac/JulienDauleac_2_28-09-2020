@@ -350,7 +350,7 @@ main
 
 #best_accommodations_div figcaption p
 {
-    line-height: 0;
+    line-height: 1;
 }
 
 #best_accommodations_div figcaption i
@@ -409,10 +409,6 @@ main
     border-radius: 15px;
     box-shadow: 10px 10px 10px #F2F2F2;
     margin: 0;
-}
-#activities_div figcaption
-{
-
 }
 
 .element_activity2
@@ -546,7 +542,7 @@ main
     margin-right: 20%;
 }
 
-@media (max-width: 1200px)
+@media (max-width: 1300px)
 {
     .img_activity2
     {
@@ -560,15 +556,43 @@ main
     {
         flex-wrap: nowrap;
     }
+    .element_activity5
+    {
+        margin-top: 30%;
+    }
+    .element_activity3
+    {
+        margin-top: 45%;
+    }
+    .element_activity4
+    {
+        height: 30%;
+    }
     .img_activity5
     {
         height: 70%;
+    }
+    .img_activity4
+    {
+        height: 70%;
+    }
+    .element_activity1 figure
+    {
+        height: 65%;
+    }
+    .img_activity1
+    {
+        height: 85%;
     }
     .element_best_accommodation
     {
         margin-bottom: 20px;
         margin-top: 0;
         width: 90%;
+    }
+    .accommodation_article figcaption
+    {
+        line-height: 15px;
     }
     main
     {
@@ -585,7 +609,7 @@ main
     }
     #accommodations_container
     {
-        width: 60%;
+        width: 65%;
     }
     #container_best_accommodations
     {
@@ -593,7 +617,7 @@ main
     }
     .accommodation_article
     {
-        width: 29%;
+        width: 31%;
     }
     .text_accommodation
     {
@@ -614,6 +638,10 @@ main
     {
         margin-left: 15px;
         margin-top: 20px;
+    }
+    #activities_div h3
+    {
+        margin: 10px 0 30px 20px;
     }
 }
 
