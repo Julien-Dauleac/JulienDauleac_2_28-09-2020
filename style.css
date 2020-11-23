@@ -15,7 +15,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active
 
 main
 {
-    box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -417,24 +416,59 @@ main
     margin: 0;
 }
 
+.element_activity1
+{
+    width: 45%;
+    height: 80%;
+}
+
+.element_activity2
+{
+    height: 35%;
+}
+
+.element_activity3
+{
+    height: 50%;
+}
+
+.element_activity4
+{
+    height: 80%;
+}
+
+.element_activity5
+{
+
+}
+
+.element_activity6
+{
+
+}
+
 .element_activity1 figure
 {
     width: 90%;
+    height: 90%;
 }
 
 .element_activity2 figure
 {
     width: 90%;
+    height: 100%;
 }
 
 .element_activity3 figure
 {
     width: 90%;
+    margin-top: 20%;
 }
 
 .element_activity4 figure
 {
     width: 90%;
+    height: 90%;
 }
 
 .element_activity5 figure
@@ -449,7 +483,8 @@ main
 
 .column_activities
 {
-    width: 23%;
+    width: 30%;
+    height: 80%;
 }
 
 .img_activity
@@ -457,18 +492,17 @@ main
     width: 100%;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
-
 }
 
 .img_activity1
 {
-    height: 88%;
+    height: 90%;
 }
 
 .img_activity2
 {
     object-position: 0 40%;
-    height:80%;
+    height:70%;
 }
 
 .img_activity3
@@ -479,19 +513,18 @@ main
 
 .img_activity4
 {
-    object-position: 0 20%;
-    height:67%;
+    height:90%;
 }
 
 .img_activity5
 {
-    object-position: 0 0;
+    object-position: 0 20%;
     height:75%;
 }
 
 .img_activity6
 {
-    object-position: 0 0;
+    object-position: 0 20%;
     height:74%;
 }
 
