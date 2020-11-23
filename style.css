@@ -424,12 +424,12 @@ main
 
 .element_activity2
 {
-    height: 35%;
+    height: 50%;
 }
 
 .element_activity3
 {
-    height: 50%;
+    height: 40%;
 }
 
 .element_activity4
@@ -439,18 +439,18 @@ main
 
 .element_activity5
 {
-
+    height: 45%;
 }
 
 .element_activity6
 {
-
+    height: 45%;
 }
 
 .element_activity1 figure
 {
     width: 90%;
-    height: 90%;
+    height: 100%;
 }
 
 .element_activity2 figure
@@ -462,29 +462,31 @@ main
 .element_activity3 figure
 {
     width: 90%;
-    margin-top: 20%;
+    height: 100%;
 }
 
 .element_activity4 figure
 {
     width: 90%;
-    height: 90%;
+    height: 100%;
 }
 
 .element_activity5 figure
 {
     width: 90%;
+    height: 100%;
 }
 
 .element_activity6 figure
 {
     width: 90%;
+    height: 100%;
 }
 
 .column_activities
 {
     width: 30%;
-    height: 80%;
+    height: 70%;
 }
 
 .img_activity
@@ -502,30 +504,30 @@ main
 .img_activity2
 {
     object-position: 0 40%;
-    height:70%;
+    height: 80%;
 }
 
 .img_activity3
 {
     object-position: 0 20%;
-    height:67%;
+    height: 78%;
 }
 
 .img_activity4
 {
-    height:90%;
+    height: 90%;
 }
 
 .img_activity5
 {
     object-position: 0 20%;
-    height:75%;
+    height: 80%;
 }
 
 .img_activity6
 {
     object-position: 0 20%;
-    height:74%;
+    height: 80%;
 }
 
 /* ------ footer container ------*/
