@@ -76,22 +76,14 @@ main
     padding: 30px;
 }
 
-#title
-{
-    padding-left: 20px;
-}
-
 /* search bar */
 
-.map
+#map_icon
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20px;
-    height: 20px;
-    padding: 10px;
-    border: 1px white solid;
+    padding: 15px;
     background-color: #F2F2F2;
     border-radius: 10px 0 0 10px;
 }
@@ -99,15 +91,11 @@ main
 #search
 {
     display: flex;
-    padding-left: 20px;
+	width: 30%;
+	min-width: 230px;
 }
 
-#search i
-{
-    display: flex;
-}
-
-#button_search
+#search_icon
 {
     display: none;
 }
@@ -123,7 +111,7 @@ main
     color: black;
 }
 
-.submit
+#button_search
 {
     background-color: #0065FC;
     color: white;
@@ -170,7 +158,7 @@ main
     border-right: 2px solid #F2F2F2;
     border-radius: 30px 30px 30px 30px;
     background-color: white;
-    margin: 10px;
+	margin-left: 20px;
     display: flex;
 }
 
@@ -230,7 +218,8 @@ main
 #accommodations_container h2
 {
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 40px;
+	margin-bottom: 5px;
 }
 
 #accommodations_div
@@ -238,6 +227,7 @@ main
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+	padding-left: 15px;
 }
 
 .accommodation_article
@@ -252,23 +242,25 @@ main
     width: 90%;
     margin-left: 0;
     margin-right: 0;
-    padding: 10px;
+    padding: 5px;
     border: 1px #F2F2F2 solid;
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: white;
+	box-shadow: 10px 10px 10px #e9e7e2;
 }
 
 #show_more
 {
 	display: inline-flex;
-    margin: 50px;
+    margin-left: 45px;
+	margin-top: 30px;
     font-size: larger;
     font-weight: bold;
 }
 
 .img_accommodation_link
 {
-    height: 150px;
+    height: 120px;
 }
 
 .img_accommodation
@@ -282,7 +274,9 @@ main
 
 .accommodation_article figcaption
 {
-    line-height: 10px;
+    line-height: 5px;
+	margin-left: 10px;
+	margin-bottom: 7px;
 }
 
 /* ------ best accommodations container ------*/
@@ -333,12 +327,13 @@ main
 #best_accommodations_div figure
 {
     display: flex;
-    padding: 8px;
-    border-radius: 30px;
+    padding: 5px;
+    border-radius: 20px;
     border: 1px #F2F2F2 solid;
     background-color: white;
     margin: 20px 20px 10px 20px;
     height: 100%;
+	box-shadow: 10px 10px 10px #e9e7e2;
 }
 
 #best_accommodations_div figcaption
@@ -352,14 +347,11 @@ main
     line-height: 1;
 }
 
-#best_accommodations_div figcaption i
-{
-    padding-top: 40px;
-}
-
-.best_accommodation_articles
+.best_accommodation_article
 {
     height: 35%;
+	max-height: 150px;
+	margin-bottom: 40px;
 }
 
 .img_best_accommodation
@@ -372,15 +364,28 @@ main
 
 .img_best_accommodation_link
 {
-    height: 180px;
-    width: 180px;
+    height: 150px;
+    width: 150px;
 }
-
+.stars
+{
+	height:50%;
+	margin-top: 25px;
+}
 .star-blue
 {
     color: #0065FC;
 }
-
+.best_accommodation_title
+{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.best_accommodation_price
+{
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
 .star-gray
 {
     color: #F2F2F2;
@@ -402,6 +407,7 @@ main
 #activities_div
 {
     display: flex;
+	height: 100x;
 }
 
 #activities_div h3
@@ -419,32 +425,31 @@ main
 .element_activity1
 {
     width: 45%;
-    height: 80%;
 }
 
 .element_activity2
 {
-    height: 50%;
+	height: 57%;
 }
 
 .element_activity3
 {
-    height: 40%;
+	height: 37%;
 }
 
 .element_activity4
 {
-    height: 80%;
+
 }
 
 .element_activity5
 {
-    height: 45%;
+	height: 37%;
 }
 
 .element_activity6
 {
-    height: 45%;
+	height: 57%;
 }
 
 .element_activity1 figure
@@ -486,7 +491,10 @@ main
 .column_activities
 {
     width: 30%;
-    height: 70%;
+    height: 100%;
+	display: flex;
+    flex-direction: column;
+	justify-content: space-between;
 }
 
 .img_activity
@@ -623,6 +631,22 @@ main
         padding-left: 0;
         padding-right: 0;
     }
+	#title
+	{
+		margin-left: 20px;
+	}
+	#search
+	{
+		margin-left: 20px;
+	}
+	#filters_container
+	{
+		margin-left: 20px;
+	}
+	#accommodation_count_container
+	{
+		margin-left: 20px;
+	}
     .img_best_accommodation2
     {
         width: 220px;
@@ -677,12 +701,7 @@ main
     }
     #best_accommodations_div {
         max-width: 100%;
-        height: 90%;
         margin-left: 0;
-    }
-    #search
-    {
-        padding-left: 0;
     }
     #title
     {
@@ -751,7 +770,8 @@ main
     }
     .filter
     {
-        margin: 0;
+        margin-left: 10px;
+		margin-top: 10px;
     }
     .activities
     {
@@ -764,10 +784,6 @@ main
     .pets a
     {
         width: 142px;
-    }
-    .filter
-    {
-        margin: 5px;
     }
     .our_accommodations
     {
@@ -795,11 +811,7 @@ main
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 45px;
-        height: 45px;
-        background-color: #0065FC;
-        color: white;
-        border: 50px;
+		padding: 10px;
         border-radius: 15px 15px 15px 15px;
     }
 	.holder
@@ -810,22 +822,22 @@ main
 	{
 		border: 1px solid #F2F2F2;
 		border-radius: 15px 15px 15px 15px;
-        width: 270px;
+	}
+	#button_search
+	{
+		margin-top: -1px;
+	}
+	#map_icon
+	{
+		margin-top: -1px;
 	}
     .submit
     {
         display: none;
     }
-    .map
+	#search_icon
     {
-        border-top: 2px white solid;
-        border-bottom: 2px white solid;
-        border-left: 2px white solid;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 30px;
-        height: 25px;
     }
     #filters_container
     {
@@ -839,11 +851,6 @@ main
     {
         flex-wrap: wrap;
         margin: 0;
-    }
-    .filter
-    {
-        padding: 0;
-        margin: 4px;
     }
     .best_accommodations
     {
@@ -865,10 +872,6 @@ main
     {
         width: 50%;
         margin-left: 180px;
-    }
-    .show_more
-    {
-        margin: 10px auto 0 0;
     }
     .text_best_accommodations h2
     {
@@ -915,11 +918,7 @@ main
     {
         width: 100%;
     }
-    .img_accommodation_link
-    {
-        width: 100%;
-        height: 300px;
-    }
+
     #activities_div
     {
         flex-wrap: wrap;
@@ -989,7 +988,6 @@ main
 	/* ------ accommodations ------ */
     #accommodation_count_container i
     {
-        width: 40px;
         margin-left: 2px;
     }
     #accommodation_count_container p
@@ -1074,10 +1072,6 @@ main
     .text_best_accommodation1
     {
         font-size: 75%;
-    }
-    .img_accommodation_link
-    {
-        height: 200px;
     }
     #show_more
     {
