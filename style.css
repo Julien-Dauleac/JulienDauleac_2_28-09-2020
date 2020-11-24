@@ -340,7 +340,7 @@ main
 #best_accommodations_div figcaption
 {
     padding-left: 20px;
-    width: 40%;
+    width: 60%;
 }
 
 #best_accommodations_div figcaption p
@@ -363,27 +363,37 @@ main
 
 .img_best_accommodation_link
 {
-    height: 150px;
-    width: 150px;
+    height: 160px;
+    width: 160px;
 }
-.stars
+
+.stars1
 {
-	margin-top: 30%;
+	margin-top: 70px;
 }
+
+.stars2
+{
+    margin-top: 50px;
+}
+
 .star-blue
 {
     color: #0065FC;
 }
+
 .best_accommodation_title
 {
 	margin-top: 10px;
 	margin-bottom: 0;
 }
+
 .best_accommodation_price
 {
 	margin-top: 5px;
 	margin-bottom: 0;
 }
+
 .star-gray
 {
     color: #F2F2F2;
@@ -529,12 +539,15 @@ main
     margin-right: 20%;
 }
 
-@media (max-width: 1440px)
+@media (max-width: 1580px)
 {
-
+    .stars1
+    {
+        margin-top: 50px;
+    }
 }
 
-@media (max-width: 1300px)
+@media (max-width: 1330px)
 {
     .accommodation_article figcaption
     {
@@ -545,11 +558,6 @@ main
     #best_accommodations_div figcaption
     {
         font-size: 70%;
-    }
-    #best_accommodations_div
-    {
-        max-width: 100%;
-        margin-left: 0;
     }
     .text_best_accommodations i
     {
