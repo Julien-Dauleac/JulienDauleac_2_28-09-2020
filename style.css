@@ -402,12 +402,6 @@ main
 
 /* ------ activities container ------*/
 
-#activities_container
-{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 #activities_container h2
 {
     margin-top: 50px;
