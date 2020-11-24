@@ -32,6 +32,7 @@ main
 {
     width: 100px;
     padding-left: 20px;
+    margin-top: 15px;
 }
 #header_nav_anchors
 {
@@ -549,10 +550,21 @@ main
 
 @media (max-width: 1330px)
 {
+    .stars1
+    {
+        margin-top: 70px;
+    }
+    .stars2
+    {
+        margin-top: 45px;
+    }
+    .best_accommodation_article
+    {
+        margin-bottom: 25px;
+    }
     .accommodation_article figcaption
     {
-        line-height: 5px;
-        font-size: 80%;
+        font-size: 75%;
         margin-left: 5px;
     }
     #best_accommodations_div figcaption
