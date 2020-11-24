@@ -824,6 +824,10 @@ h1
 
 @media (max-width: 576px)
 {
+    body
+    {
+        padding-right: 8px;
+    }
     main
     {
         padding-left: 0;
@@ -913,45 +917,17 @@ h1
         width: 100%;
         font-size: 90%;
     }
-	.activities
-    {
-        flex-wrap: wrap;
-        width: 50%;
-        margin-left: 175px;
-    }
-    .activities h3
-    {
-        font-size: 100%;
-    }
     #all_accommodations_container
     {
         flex-wrap: nowrap;
-    }
-    .text_accommodation
-    {
-        line-height: 35%;
-        width: 100%;
-        font-size: 90%;
     }
     #filters_nav
     {
         font-size: 90%;
     }
-    .title
-    {
-        font-size: 60%;
-        padding-left: 10px;
-		margin-top: 0;
-    }
     #accommodations_div
     {
         padding-left: 0;
-    }
-    .activities
-    {
-        flex-wrap: wrap;
-        width: auto;
-        margin-left: 0;
     }
     .footer
     {
