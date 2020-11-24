@@ -634,26 +634,22 @@ main
         align-items: center;
         margin-right: 70px;
     }
-    #filters_container
+    #filters_nav
     {
-        justify-content: flex-start;
+        margin: 0;
+    }
+    .filter a
+    {
+        padding: 3px;
     }
     .filter
     {
         margin-left: 10px;
 		margin-top: 10px;
     }
-    .activities
-    {
-        flex-wrap: nowrap;
-    }
     .about
     {
         margin-right: 10%;
-    }
-    .pets a
-    {
-        width: 142px;
     }
     .our_accommodations
     {
@@ -739,7 +735,7 @@ main
     }
     #accommodations_div
     {
-        width: 50%;
+        width: 100%;
     }
     .text_best_accommodations h2
     {
@@ -754,12 +750,6 @@ main
         margin-left: 30px;
         width: 30px;
         height: 30px;
-    }
-    .activities
-    {
-        flex-wrap: wrap;
-        width: 60%;
-        margin-left: 20%;
     }
     .about
     {
@@ -780,7 +770,9 @@ main
     .column_activities
     {
         width: 100%;
-        margin: 10px 0;
+        height: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
     #best_accommodations_container
     {
@@ -790,6 +782,7 @@ main
     #activities_div
     {
         flex-wrap: wrap;
+        height: 1%;
     }
     #footer_container
     {
@@ -806,6 +799,20 @@ main
     .text_best_accommodations
     {
         font-size: 100%;
+    }
+    .element_activity
+    {
+        width: 100%;
+        height: 100%;
+    }
+    #activities_div figure
+    {
+        width: 100%;
+    }
+    .img_activity_link
+    {
+        flex-grow: 0;
+        height: 100%;
     }
 }
 
