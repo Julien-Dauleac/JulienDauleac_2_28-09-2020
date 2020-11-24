@@ -758,7 +758,6 @@ main
         padding: 0;
         margin-left: 55px;
         margin-bottom: 30px;
-        margin-right: 1px;
         font-size: 95%;
     }
     .img_best_accommodation2
@@ -951,7 +950,7 @@ main
     }
     .footer
     {
-        margin-left: 25px;
+        margin: 20px;
     }
     .text_best_accommodation
     {
