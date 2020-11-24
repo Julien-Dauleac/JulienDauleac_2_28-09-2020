@@ -674,10 +674,6 @@ main
     {
         width: 400px;
     }
-    #best_accommodations_div figure
-    {
-        width: 92%;
-    }
 }
 
 @media (max-width: 800px)
@@ -739,15 +735,17 @@ main
     {
         width: auto;
     }
+    #best_accommodations_div figcaption
+    {
+        font-size: 100%;
+    }
     .accommodation_article
     {
-        width: 100%;
-        margin-bottom: 20px;
+        width: 90%;
     }
     #accommodations_div
     {
         width: 50%;
-        margin-left: 180px;
     }
     .text_best_accommodations h2
     {
@@ -802,6 +800,18 @@ main
     #footer_container
     {
         flex-wrap: wrap;
+    }
+    .accommodation_article figure
+    {
+        margin-left: 25px;
+    }
+    #accommodations_container h2
+    {
+        margin-left: 20px;
+    }
+    .text_best_accommodations
+    {
+        font-size: 100%;
     }
 }
 
