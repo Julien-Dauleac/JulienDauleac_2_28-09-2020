@@ -202,7 +202,6 @@ main
 #all_accommodations_container
 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -253,14 +252,14 @@ main
 {
 	display: inline-flex;
     margin-left: 45px;
-	margin-top: 30px;
+	margin-top: 25px;
     font-size: larger;
     font-weight: bold;
 }
 
 .img_accommodation_link
 {
-    height: 120px;
+    height: 150px;
 }
 
 .img_accommodation
@@ -285,7 +284,6 @@ main
 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     border: 1px white solid;
     border-radius: 30px;
     background-color: #F2F2F2;
@@ -320,7 +318,6 @@ main
 #best_accommodations_div
 {
     max-width: 90%;
-    height: 65%;
     margin-left: 5%;
 }
 
@@ -349,9 +346,7 @@ main
 
 .best_accommodation_article
 {
-    height: 35%;
-	max-height: 150px;
-	margin-bottom: 40px;
+	margin-bottom: 45px;
 }
 
 .img_best_accommodation
@@ -369,8 +364,7 @@ main
 }
 .stars
 {
-	height:50%;
-	margin-top: 25px;
+	margin-top: 30%;
 }
 .star-blue
 {
@@ -379,12 +373,12 @@ main
 .best_accommodation_title
 {
 	margin-top: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 .best_accommodation_price
 {
 	margin-top: 5px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 .star-gray
 {
@@ -407,7 +401,6 @@ main
 #activities_div
 {
     display: flex;
-	height: 100x;
 }
 
 #activities_div h3
@@ -450,6 +443,31 @@ main
 .element_activity6
 {
 	height: 57%;
+}
+
+.img_activity1_link
+{
+
+}
+
+.img_activity2_link
+{
+
+}
+
+.img_activity3_link
+{
+
+}
+
+.img_activity5_link
+{
+
+}
+
+.img_activity6_link
+{
+
 }
 
 .element_activity1 figure
@@ -574,138 +592,39 @@ main
     margin-right: 20%;
 }
 
+@media (max-width: 1440px)
+{
+
+}
+
 @media (max-width: 1300px)
 {
-    .img_activity2
-    {
-        height: 75%;
-    }
-    .activities
-    {
-        flex-wrap: nowrap;
-    }
-    #all_accommodations_container
-    {
-        flex-wrap: nowrap;
-    }
-    .element_activity5
-    {
-        margin-top: 30%;
-    }
-    .element_activity3
-    {
-        margin-top: 45%;
-    }
-    .element_activity4
-    {
-        height: 30%;
-    }
-    .img_activity5
-    {
-        height: 70%;
-    }
-    .img_activity4
-    {
-        height: 70%;
-    }
-    .element_activity1 figure
-    {
-        height: 65%;
-    }
-    .img_activity1
-    {
-        height: 85%;
-    }
-    .element_best_accommodation
-    {
-        margin-bottom: 20px;
-        margin-top: 0;
-        width: 90%;
-    }
     .accommodation_article figcaption
     {
         line-height: 15px;
-    }
-    main
-    {
-        padding-left: 0;
-        padding-right: 0;
-    }
-	#title
-	{
-		margin-left: 20px;
-	}
-	#search
-	{
-		margin-left: 20px;
-	}
-	#filters_container
-	{
-		margin-left: 20px;
-	}
-	#accommodation_count_container
-	{
-		margin-left: 20px;
-	}
-    .img_best_accommodation2
-    {
-        width: 220px;
-    }
-    .text_best_accommodation
-    {
-        line-height: 26px;
-    }
-    #accommodations_container
-    {
-        width: 65%;
-    }
-    #container_best_accommodations
-    {
-        width: 37%;
-    }
-    .accommodation_article
-    {
-        width: 31%;
-    }
-    .text_accommodation
-    {
-        line-height: 110%;
-    }
-    #accommodations_container h2
-    {
-        margin-top: 30px;
-        margin-left: 15px;
-    }
-    .text_best_accommodations i
-    {
-        margin-right: 15px;
-        margin-top: 0;
-        font-size: 150%;
-    }
-    .text_best_accommodations h2
-    {
-        margin-left: 15px;
-        margin-top: 20px;
-    }
-    #activities_div h3
-    {
-        margin: 10px 0 30px 20px;
-    }
-    #best_accommodations_div figcaption i
-    {
-        padding-top: 30px;
+        font-size: 80%;
+        margin-left: 0;
     }
     #best_accommodations_div figcaption
     {
-        width: 100%;
+        font-size: 70%;
     }
-    #best_accommodations_div {
+    #best_accommodations_div
+    {
         max-width: 100%;
         margin-left: 0;
     }
-    #title
+    .text_best_accommodations i
     {
-        padding-left: 0;
+        margin-right: 20px;
+    }
+    .text_best_accommodations h2
+    {
+        margin-left: 20px;
+    }
+    .text_best_accommodations
+    {
+        font-size: 80%;
     }
 }
 
