@@ -605,9 +605,7 @@ main
     }
     #accommodations_container
     {
-        flex-direction: column;
-        align-items: center;
-        width: auto;
+        width: 100%;
         background-color: white;
     }
     #accommodations_container h2
@@ -877,7 +875,8 @@ main
 
     #accommodation_count_container i
     {
-        margin-left: 2px;
+        margin-left: 5px;
+        width: 40px;
     }
     #accommodation_count_container p
     {
@@ -885,12 +884,13 @@ main
     }
     #accommodations_container h2
     {
-        font-size: 130%;
-        padding-right: 30px;
+        font-size: 110%;
+        margin-left: 15px;
     }
     .text_best_accommodations h2
     {
-        font-size: 130%;
+        font-size: 110%;
+        margin: 20px 0 20px 15px;
     }
     .text_best_accommodations i
     {
@@ -937,8 +937,7 @@ main
     }
     #accommodations_div
     {
-        width: auto;
-        margin-left: 0;
+        padding-left: 0;
     }
     .activities
     {
@@ -948,7 +947,7 @@ main
     }
     .footer
     {
-        margin-left: 30px;
+        margin-left: 25px;
     }
     .text_best_accommodation
     {
@@ -964,10 +963,13 @@ main
     }
     #show_more
     {
-        margin: 0;
+        margin-left: 0;
+        margin-top: 25px;
+        font-size: initial;
     }
     #best_accommodations_div figure
     {
+        width: 95%;
         margin: 0;
     }
     .img_activity1
@@ -977,5 +979,39 @@ main
     .element_activity1 figure
     {
         height: 75%;
+    }
+    .filter a
+    {
+        padding: 10px;
+    }
+    .best_accommodation_article
+    {
+        margin-bottom: 10px;
+    }
+    #best_accommodations_div figcaption
+    {
+        font-size: 70%;
+    }
+    .stars
+    {
+        margin-top: 28px;
+    }
+    .img_best_accommodation_link
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .accommodation_article figure
+    {
+        width: 95%;
+        margin-left: 0;
+    }
+    #activities_container h2
+    {
+        font-size: 110%;
+    }
+    .accommodation_article
+    {
+        width: 100%;
     }
 }
