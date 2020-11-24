@@ -551,9 +551,9 @@ main
 {
     .accommodation_article figcaption
     {
-        line-height: 15px;
+        line-height: 5px;
         font-size: 80%;
-        margin-left: 0;
+        margin-left: 5px;
     }
     #best_accommodations_div figcaption
     {
