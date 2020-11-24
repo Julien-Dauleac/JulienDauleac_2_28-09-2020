@@ -812,6 +812,10 @@ main
         flex-grow: 0;
         height: 100%;
     }
+    .filter a
+    {
+        padding: 10px;
+    }
 }
 
 @media (max-width: 576px)
@@ -979,10 +983,6 @@ main
     .element_activity1 figure
     {
         height: 75%;
-    }
-    .filter a
-    {
-        padding: 10px;
     }
     .best_accommodation_article
     {
