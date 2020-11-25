@@ -394,6 +394,7 @@ h1
 .best_accommodation_price
 {
     max-height: 25%;
+    margin-top: 0;
 }
 
 .star-gray
