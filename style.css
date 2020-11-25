@@ -354,11 +354,6 @@ h1
     max-height: 140px;
 }
 
-#best_accommodations_div figcaption p
-{
-    line-height: 1;
-}
-
 .best_accommodation_article
 {
 	margin-bottom: 45px;
@@ -385,7 +380,6 @@ h1
 
 .best_accommodation_title
 {
-    max-height: 25%;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 15px;
@@ -393,7 +387,6 @@ h1
 
 .best_accommodation_price
 {
-    max-height: 25%;
     margin-top: 0;
 }
 
