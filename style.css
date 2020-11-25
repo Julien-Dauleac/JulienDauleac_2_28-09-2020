@@ -378,16 +378,6 @@ h1
     width: 160px;
 }
 
-.stars1
-{
-	margin-top: 40px;
-}
-
-.stars2
-{
-    margin-top: 50px;
-}
-
 .star-blue
 {
     color: #0065FC;
@@ -543,18 +533,6 @@ h1
 .our_accommodations
 {
     margin-right: 20%;
-}
-
-@media (max-width: 1560px)
-{
-    .stars1
-    {
-        margin-top: 50px;
-    }
-    .stars2
-    {
-        margin-top: 35px;
-    }
 }
 
 @media (max-width: 1330px)
@@ -964,10 +942,6 @@ h1
     #best_accommodations_div figcaption
     {
         font-size: 70%;
-    }
-    .stars
-    {
-        margin-top: 28px;
     }
     .img_best_accommodation_link
     {
