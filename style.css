@@ -346,12 +346,12 @@ h1
 
 #best_accommodations_div figcaption
 {
-    padding-left: 20px;
-    width: 60%;
+    padding: 10px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    padding-bottom: 15px;
+    justify-content: space-between;
+    max-height: 140px;
 }
 
 #best_accommodations_div figcaption p
@@ -380,7 +380,7 @@ h1
 
 .stars1
 {
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 .stars2
@@ -395,14 +395,15 @@ h1
 
 .best_accommodation_title
 {
-	margin-top: 10px;
-	margin-bottom: 0;
+    max-height: 25%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .best_accommodation_price
 {
-	margin-top: 5px;
-	margin-bottom: 0;
+    max-height: 25%;
 }
 
 .star-gray
