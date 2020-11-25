@@ -542,12 +542,7 @@ h1
     }
     .accommodation_article figcaption
     {
-        font-size: 75%;
         margin-left: 5px;
-    }
-    #best_accommodations_div figcaption
-    {
-        font-size: 70%;
     }
     .text_best_accommodations i
     {
@@ -556,10 +551,6 @@ h1
     .text_best_accommodations h2
     {
         margin-left: 20px;
-    }
-    .text_best_accommodations
-    {
-        font-size: 70%;
     }
 }
 
