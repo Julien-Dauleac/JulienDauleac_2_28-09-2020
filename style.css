@@ -945,18 +945,6 @@ h1
     {
         margin: 20px;
     }
-    .text_best_accommodation
-    {
-        padding-left: 30px;
-    }
-    .text_best_accommodation
-    {
-        font-size: 75%;
-    }
-    .text_best_accommodation1
-    {
-        font-size: 75%;
-    }
     #show_more
     {
         margin-left: 0;
@@ -967,14 +955,6 @@ h1
     {
         width: 95%;
         margin: 0;
-    }
-    .img_activity1
-    {
-        height: 80%;
-    }
-    .element_activity1 figure
-    {
-        height: 75%;
     }
     .best_accommodation_article
     {
@@ -1001,6 +981,7 @@ h1
     #activities_container h2
     {
         font-size: 110%;
+        margin-bottom: 30px;
     }
     .accommodation_article
     {
@@ -1009,5 +990,26 @@ h1
     #title
     {
         font-size: 81%;
+    }
+    #activities_div figure
+    {
+        width: 100%;
+        margin-left: 2px;
+    }
+    #footer_container
+    {
+        margin-top: 0;
+    }
+    .img_activity_link
+    {
+        height: 70%;
+    }
+    #activities_div h3
+    {
+        margin: 20px 0 0 25px;
+    }
+    #activities_div
+    {
+        height: 1500px;
     }
 }
