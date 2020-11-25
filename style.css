@@ -569,10 +569,6 @@ h1
     {
         font-size: 10px;
     }
-    #activities_div figcaption
-    {
-        font-size: 10px;
-    }
     #activities_container h2
     {
         font-size: 15px;
@@ -822,10 +818,6 @@ h1
 
 @media (max-width: 576px)
 {
-    body
-    {
-        padding-right: 8px;
-    }
     main
     {
         padding-left: 0;
