@@ -387,7 +387,7 @@ h1
 {
     max-height: 25%;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     font-size: 15px;
 }
 
@@ -400,6 +400,11 @@ h1
 .star-gray
 {
     color: #F2F2F2;
+}
+
+.stars
+{
+    margin-top:40px;
 }
 
 /* ------ activities container ------*/
