@@ -348,6 +348,10 @@ h1
 {
     padding-left: 20px;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 15px;
 }
 
 #best_accommodations_div figcaption p
@@ -540,24 +544,8 @@ h1
     margin-right: 20%;
 }
 
-@media (max-width: 1580px)
-{
-    .stars1
-    {
-        margin-top: 50px;
-    }
-}
-
 @media (max-width: 1330px)
 {
-    .stars1
-    {
-        margin-top: 70px;
-    }
-    .stars2
-    {
-        margin-top: 45px;
-    }
     .best_accommodation_article
     {
         margin-bottom: 25px;
