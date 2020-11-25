@@ -707,10 +707,6 @@ h1
     {
         width: auto;
     }
-    #best_accommodations_div figcaption
-    {
-        font-size: 100%;
-    }
     .accommodation_article
     {
         width: 90%;
@@ -774,10 +770,6 @@ h1
     #accommodations_container h2
     {
         margin-left: 20px;
-    }
-    .text_best_accommodations
-    {
-        font-size: 100%;
     }
     .element_activity
     {
@@ -990,5 +982,9 @@ h1
     .best_accommodation_price
     {
         margin-top: 10px;
+    }
+    .stars
+    {
+        margin-top: 13px;
     }
 }
