@@ -285,7 +285,7 @@ h1
 .accommodation_article figcaption
 {
     line-height: 5px;
-	margin-left: 10px;
+	margin-left: 12px;
 	margin-bottom: 7px;
 }
 
@@ -352,6 +352,7 @@ h1
     flex-direction: column;
     justify-content: space-between;
     max-height: 140px;
+    margin-left: 5px;
 }
 
 .best_accommodation_article
