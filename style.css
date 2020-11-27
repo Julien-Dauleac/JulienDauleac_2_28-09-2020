@@ -543,7 +543,7 @@ h1
     .accommodation_article figcaption
     {
         margin-left: 5px;
-        font-size: 10px;
+        font-size: 12px;
     }
     #accommodations_container h2
     {
@@ -551,7 +551,7 @@ h1
     }
     .text_best_accommodations
     {
-        font-size: 10px;
+        font-size: 12px;
     }
     .text_best_accommodations i
     {
@@ -567,11 +567,11 @@ h1
     }
     #best_accommodations_div figcaption
     {
-        font-size: 10px;
+        font-size: 12px;
     }
     #activities_container h2
     {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
 
@@ -991,7 +991,7 @@ h1
     }
     .stars
     {
-        margin-top: 13px;
+        margin-top: 0;
     }
     .text_best_accommodations
     {
