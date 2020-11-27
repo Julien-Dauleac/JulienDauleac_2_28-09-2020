@@ -382,7 +382,6 @@ h1
 {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 15px;
 }
 
 .best_accommodation_price
@@ -397,7 +396,7 @@ h1
 
 .stars
 {
-    margin-top: 55px;
+    margin-top: 45px;
 }
 
 /* ------ activities container ------*/
@@ -563,7 +562,7 @@ h1
     }
     .stars
     {
-        margin-top: 60px;
+        margin-top: 45px;
     }
     #best_accommodations_div figcaption
     {
