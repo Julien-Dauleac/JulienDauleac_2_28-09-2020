@@ -547,7 +547,7 @@ h1
     }
     #accommodations_container h2
     {
-        font-size: 15px;
+        font-size: 17px;
     }
     .text_best_accommodations
     {
@@ -571,7 +571,11 @@ h1
     }
     #activities_container h2
     {
-        font-size: 18px;
+        font-size: 17px;
+    }
+    #show_more
+    {
+        font-size: 17px;
     }
 }
 
