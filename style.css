@@ -778,6 +778,7 @@ h1
     {
         flex-wrap: wrap;
         height: 2500px;
+        padding-left: 60px;
     }
     #footer_container
     {
@@ -992,6 +993,7 @@ h1
     #activities_div
     {
         height: 1500px;
+        padding-left: 0;
     }
     .best_accommodation_price
     {
